@@ -13,14 +13,6 @@ public class SettingsManager : MonoBehaviour
         
         // Load saved settings on start
         LoadSettings();
-
-      
-
-        if (brightnessSlider != null)
-            brightnessSlider.value = PlayerPrefs.GetFloat("Brightness", 1f);
-
-        // Update image color based on initial brightness value
-        UpdateImageColor(brightnessSlider.value);
     }
 
     private void Update()
@@ -34,16 +26,7 @@ public class SettingsManager : MonoBehaviour
             PlayerPrefs.SetFloat("Volume", volumeSlider.value);
         }
 
-        if (brightnessSlider != null)
-        {
-            // Update brightness slider
-           
-
-            // Update image color based on the inverted brightness value
-            UpdateImageColor(1f - brightnessSlider.value);
-
-            PlayerPrefs.SetFloat("Brightness", brightnessSlider.value);
-        }
+        
     }
 
     private void LoadSettings()
