@@ -95,7 +95,7 @@ MonoBehaviour:
     - title: Name
       value: Sinag
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
@@ -189,9 +189,13 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: d8bbfe88e7236c6488f365c2344e5a37, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 39cb4e0f7f00a2d4ea8de458d859d24a, type: 3}
     alternatePortraits: []
-    spritePortraits: []
+    spritePortraits:
+    - {fileID: 21300000, guid: d8bbfe88e7236c6488f365c2344e5a37, type: 3}
+    - {fileID: 21300000, guid: 9d13af846a4f693409babd024115d372, type: 3}
+    - {fileID: 21300000, guid: b822a85b810db2b429356b69e2d71b91, type: 3}
+    - {fileID: 21300000, guid: fcaf71d798d65f14d8603d701edfe8a1, type: 3}
   - id: 7
     fields:
     - title: Name
@@ -211,9 +215,13 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 5295586076b9ee04fa8bde2c9586e5ae, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 9c189a0046024ae4fa042167a050f91b, type: 3}
     alternatePortraits: []
-    spritePortraits: []
+    spritePortraits:
+    - {fileID: 21300000, guid: 5295586076b9ee04fa8bde2c9586e5ae, type: 3}
+    - {fileID: 21300000, guid: 5d0ae62d8322ed84baf99359be52ca41, type: 3}
+    - {fileID: 21300000, guid: e1cd41176ad01754ab21dff515bdad5e, type: 3}
+    - {fileID: 21300000, guid: 47731a1c40720ef4eb7e303a2d046613, type: 3}
   items:
   - id: 1
     fields:
