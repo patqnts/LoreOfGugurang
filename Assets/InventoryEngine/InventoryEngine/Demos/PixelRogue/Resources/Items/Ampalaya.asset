@@ -26,8 +26,9 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Ampalaya
-  ShortDescription: Ampalaya
-  Description: Ampalaya
+  ShortDescription: 
+  Description: Has been revered for its healing abilities, often depicted as a key
+    ingredient in potions and remedies.
   Icon: {fileID: 21300000, guid: 252c93900eba5bb45a785b912e0e3477, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

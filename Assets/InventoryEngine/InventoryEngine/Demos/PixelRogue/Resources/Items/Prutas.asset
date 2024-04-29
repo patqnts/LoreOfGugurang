@@ -26,8 +26,10 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Prutas
-  ShortDescription: Prutas
-  Description: Prutas
+  ShortDescription: 
+  Description: 'The act of offering fruits to Gugurang and Asuang is rooted in the
+    belief of appeasing these supernatural beings to ensure protection, good harvests,
+    and favorable weather conditions. '
   Icon: {fileID: 21300000, guid: af4c542a3ecd0754e954afa6a76c12cf, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 11d057f58f9b5f54a88d1a0a93e8156e, type: 3}
   DropProperties:

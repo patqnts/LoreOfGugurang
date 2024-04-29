@@ -26,8 +26,10 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 0
   ItemName: Makuring Lason
-  ShortDescription: "Likidong pangunahing\r sangkap sa pagbuo ng gayuma"
-  Description: "Likidong pangunahing\r sangkap sa pagbuo ng gayuma"
+  ShortDescription: 
+  Description: This potion is believed to possess magical properties that cleanse
+    the land of negative energies, banish evil spirits, and restore harmony and vitality
+    to the environment.
   Icon: {fileID: 21300000, guid: b6424bcf946d35b40a1f4431fd724bd9, type: 3}
   Prefab: {fileID: 0}
   DropProperties:

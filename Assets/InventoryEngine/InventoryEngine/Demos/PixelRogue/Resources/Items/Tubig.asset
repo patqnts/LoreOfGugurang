@@ -26,8 +26,11 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Tubig
-  ShortDescription: Tubig
-  Description: Tubig
+  ShortDescription: 
+  Description: 'It often represents purity, life, renewal, and spiritual cleansing.
+    Water is believed to possess healing properties, both physically and spiritually.
+
+'
   Icon: {fileID: 21300000, guid: cc320ec758ddf464693aa134384a41a3, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

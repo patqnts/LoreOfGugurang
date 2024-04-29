@@ -26,8 +26,10 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Binutong
-  ShortDescription: Binutong
-  Description: Binutong
+  ShortDescription: 
+  Description: Is typically made from glutinous rice, coconut milk, and various herbs
+    and spices, which may include ginger, turmeric, pandan leaves, and lemongrass,
+    among others.
   Icon: {fileID: 21300000, guid: ed5cabec49279a54ab574cd3178b287a, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

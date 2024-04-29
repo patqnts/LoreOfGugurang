@@ -26,8 +26,10 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Ulasimang Bato
-  ShortDescription: Ulasimang Bato
-  Description: Ulasimang Bato
+  ShortDescription: 
+  Description: Are utilized to create healing potions. These potions are often used
+    to treat a range of ailments, including fevers, digestive issues, skin conditions,
+    and even as an aid for wound healing.
   Icon: {fileID: 21300000, guid: 208687c97d9574844ba08abcee2ae782, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

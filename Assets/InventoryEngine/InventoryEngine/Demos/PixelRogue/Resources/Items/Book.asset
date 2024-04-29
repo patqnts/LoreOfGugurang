@@ -26,8 +26,11 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Book
-  ShortDescription: Book
-  Description: Book
+  ShortDescription: 
+  Description: It is often portrayed as a mystical tome containing arcane knowledge,
+    spells, rituals, and incantations that grant the wielder extraordinary powers.
+    This book is typically associated with wizards, witches, sorcerers, and other
+    practitioners of magic.
   Icon: {fileID: 21300000, guid: e93f78fac2f222c41a1356a1a1965f1c, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

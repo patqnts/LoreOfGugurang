@@ -26,8 +26,10 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Niyog-Niyogan
-  ShortDescription: Niyog-Niyogan
-  Description: Niyog-Niyogan
+  ShortDescription: 
+  Description: The potion is typically made from the seeds of the niyog-niyogan plant,
+    which are crushed or ground into a powder. This powder is then mixed with water
+    or another liquid to create a medicinal solution
   Icon: {fileID: 21300000, guid: f9384a75cb564c74b933cc8c0c6c5eb3, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

@@ -26,8 +26,11 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Lagundi
-  ShortDescription: Lagundi
-  Description: Lagundi
+  ShortDescription: 
+  Description: Commonly used by traditional healers and shamans to concoct healing
+    potions and remedies. These potions were thought to possess magical qualities
+    capable of curing illnesses ranging from coughs, colds, and fevers to more serious
+    conditions like asthma and arthritis
   Icon: {fileID: 21300000, guid: f66b0071422980c49bf6318a08f55c5a, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

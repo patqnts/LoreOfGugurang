@@ -26,8 +26,9 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Bayabas
-  ShortDescription: Bayabas
-  Description: Bayabas
+  ShortDescription: 
+  Description: Is used to create potions or remedies for treating conditions such
+    as diarrhea, dysentery, stomachaches, and wounds.
   Icon: {fileID: 21300000, guid: 82b42f2fe92d216469d2879c05eec483, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

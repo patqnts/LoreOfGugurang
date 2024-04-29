@@ -26,8 +26,9 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Sambong
-  ShortDescription: Sambong
-  Description: Sambong
+  ShortDescription: 
+  Description: Is often associated with healing potions or remedies used by traditional
+    healers or shamans.
   Icon: {fileID: 21300000, guid: 9e9bab7d4d0c7af4497010231ac0bec4, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

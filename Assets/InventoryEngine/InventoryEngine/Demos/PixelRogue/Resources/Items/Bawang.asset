@@ -26,8 +26,12 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Bawang
-  ShortDescription: Bawang
-  Description: Bawang
+  ShortDescription: 
+  Description: 'Considered a precious amulet. Protection against evil, has long been
+    believed to ward off evil spirits, and other malevolent beings. Garlic also has
+    been revered for its medicinal properties for centuries.
+
+'
   Icon: {fileID: 21300000, guid: 3f34da760c9dd574f8c9fe981e24d235, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

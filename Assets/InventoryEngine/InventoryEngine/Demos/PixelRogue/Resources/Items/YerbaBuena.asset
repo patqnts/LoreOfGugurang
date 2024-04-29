@@ -26,8 +26,9 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Yerba Buena
-  ShortDescription: Yerba Buena
-  Description: Yerba Buena
+  ShortDescription: 
+  Description: Used to treat various ailments, including digestive issues, headaches,
+    muscle pain, and respiratory problems.
   Icon: {fileID: 21300000, guid: dedc111b502c67c46af2feb55b2ec411, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:

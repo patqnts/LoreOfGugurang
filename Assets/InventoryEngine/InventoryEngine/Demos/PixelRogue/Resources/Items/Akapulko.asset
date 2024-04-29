@@ -27,7 +27,11 @@ MonoBehaviour:
   Quantity: 1
   ItemName: Akapulko
   ShortDescription: 
-  Description: Akapulko
+  Description: 'To possess potent anti-fungal, antibacterial, and anti-inflammatory
+    properties, making it a popular choice for treating various skin ailments such
+    as ringworms, eczema, and other fungal infections.
+
+'
   Icon: {fileID: 21300000, guid: a3f266d64ad5d244d9499ba7d921327c, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:
