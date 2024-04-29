@@ -2,6 +2,7 @@ using MoreMountains.InventoryEngine;
 using PixelCrushers.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class InventoryWeaponCheck : MonoBehaviour
@@ -38,6 +39,18 @@ public class InventoryWeaponCheck : MonoBehaviour
         Debug.Log("NOT EXISTS");
         DialogueLua.SetVariable($"Is{itemID}Exists", false);
         return false;
+    }
+
+    public void IsAntiRamoEnough()
+    {
+        if(mainInventory.GetQuantity("Anti-ramoPotion") >= 3)
+        {
+            DialogueLua.SetVariable($"CanPassTo3", true);
+        }
+        else
+        {
+            DialogueLua.SetVariable($"CanPassTo3", false);
+        }
     }
 
     public bool IsWeaponEquipped(string weaponID)
