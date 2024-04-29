@@ -26,16 +26,6 @@ MonoBehaviour:
     - Name: 2 Ulasimang Batos
       Item: {fileID: 11400000, guid: 3cc220ee1b3ca0443bfacb4787ac7ac8, type: 2}
       Quantity: 2
-  - Name: 3 Ginhawa Potions
-    Item: {fileID: 11400000, guid: 9268a33d0219c954ab830a3b0b2a9dba, type: 2}
-    Quantity: 1
-    Ingredients:
-    - Name: 2 Tubigs
-      Item: {fileID: 11400000, guid: 2a732e832665fbc4198fe067a76f3e73, type: 2}
-      Quantity: 2
-    - Name: Ampalaya
-      Item: {fileID: 11400000, guid: 4e8085984d7bf244c8f9e93580c41961, type: 2}
-      Quantity: 1
   - Name: 2 Bangungot Likidos
     Item: {fileID: 11400000, guid: a7bc538dc0a0bde4fbd8a0c0baafe121, type: 2}
     Quantity: 1
@@ -48,6 +38,16 @@ MonoBehaviour:
       Quantity: 3
     - Name: Lagundi
       Item: {fileID: 11400000, guid: 042e5368f462ff74a9b3b7df2b37052f, type: 2}
+      Quantity: 1
+  - Name: 3 Ginhawa Potions
+    Item: {fileID: 11400000, guid: 9268a33d0219c954ab830a3b0b2a9dba, type: 2}
+    Quantity: 1
+    Ingredients:
+    - Name: 2 Tubigs
+      Item: {fileID: 11400000, guid: 2a732e832665fbc4198fe067a76f3e73, type: 2}
+      Quantity: 2
+    - Name: Ampalaya
+      Item: {fileID: 11400000, guid: 4e8085984d7bf244c8f9e93580c41961, type: 2}
       Quantity: 1
   - Name: 3 Anti-ramo Potions
     Item: {fileID: 11400000, guid: 472f946a2be42aa49b9b37e14e187eb4, type: 2}

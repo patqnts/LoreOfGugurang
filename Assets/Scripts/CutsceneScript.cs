@@ -17,10 +17,10 @@ public class CutsceneScript : MonoBehaviour
         instance = this;
 
         SaveTypeScript sts = FindObjectOfType<SaveTypeScript>();
-        if(sts.saveType == 0)
-        {
-            PlayModule1Cutscene(0);
-        }
+        //if(sts.saveType == 0)
+        //{
+        //    PlayModule1Cutscene(0);
+        //}
     }
     public void PlayModule1Cutscene(int videoIndex)
     {
