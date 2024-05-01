@@ -4811,6 +4811,10 @@ MonoBehaviour:
         value: AudioWait(Sinag/22. Sinag-Map3_L5)
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 2ce41f22-a81a-41a9-9711-abd1e43bbd15
+        type: 0
+        typeString: 
       conversationID: 5
       isRoot: 0
       isGroup: 0
@@ -4829,7 +4833,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 794.7074
@@ -4837,8 +4853,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 813.0886, y: 366.0187}
-    canvasZoom: 0.66999984
+    canvasScrollPosition: {x: 741.9825, y: 409.95093}
+    canvasZoom: 0.63999987
   - id: 6
     fields:
     - title: Title
@@ -5730,8 +5746,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 205.45288, y: 114.311935}
-    canvasZoom: 1.0599996
+    canvasScrollPosition: {x: 151.02246, y: 0}
+    canvasZoom: 1.0299996
   - id: 8
     fields:
     - title: Title
@@ -19063,13 +19079,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 37
-        originDialogueID: 1
-        destinationConversationID: 37
-        destinationDialogueID: 3
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -19163,7 +19173,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: WASD / Arrow Key to Move
+        value: WASD / Arrow Key to Move. Spacebar to interact
         type: 0
         typeString: 
       - title: Sequence
@@ -19181,7 +19191,7 @@ MonoBehaviour:
       - originConversationID: 37
         originDialogueID: 3
         destinationConversationID: 37
-        destinationDialogueID: 4
+        destinationDialogueID: 5
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -19191,11 +19201,11 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 224
-        y: 213
+        x: 223
+        y: 247
         width: 160
         height: 30
-    - id: 4
+    - id: 5
       fields:
       - title: Title
         value: 
@@ -19206,11 +19216,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -19218,7 +19228,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Spacebar to interact
+        value: Confirm
         type: 0
         typeString: 
       - title: Sequence
@@ -19241,12 +19251,12 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 224
-        y: 263
+        y: 313
         width: 160
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.7600002
   syncInfo:
     syncActors: 0
     syncItems: 0
