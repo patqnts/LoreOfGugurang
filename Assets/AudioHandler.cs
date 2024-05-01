@@ -20,6 +20,10 @@ public class AudioHandler : MonoBehaviour
     void Start()
     {
         instance = this;
+        if(SinagScript.instance.spawnIndex >= 3)
+        {
+            ChangeMusic(2);
+        }
     }
 
     public void ChangeMusic(int state)
