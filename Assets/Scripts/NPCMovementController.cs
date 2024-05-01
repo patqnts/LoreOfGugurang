@@ -40,7 +40,7 @@ public class NPCMovementController : MonoBehaviour
         }
         SetAnimation(direction);
         // Move towards the player
-        rb.velocity = direction * 2.35f;
+        rb.velocity = direction * 3f;
     }
     public void PullingScene()
     {

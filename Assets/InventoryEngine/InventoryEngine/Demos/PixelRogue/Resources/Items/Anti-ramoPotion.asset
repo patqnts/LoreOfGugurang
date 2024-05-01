@@ -73,7 +73,7 @@ MonoBehaviour:
     MaximumScale: {x: 1, y: 1, z: 1}
   MaximumStack: 100
   ItemClass: 2
-  TargetEquipmentInventoryName: RogueMainInventory
+  TargetEquipmentInventoryName: RogueWeaponInventory
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}

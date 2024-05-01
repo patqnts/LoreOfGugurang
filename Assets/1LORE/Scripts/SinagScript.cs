@@ -21,6 +21,7 @@ public class SinagScript : MonoBehaviour
     public GameObject deathScreen;
     public AudioSource audioSource;
     public AudioClip[] clips;
+    public GameObject Katmbay;
     
     // 0 - hurt
     // 1 - interact/pick
@@ -52,6 +53,7 @@ public class SinagScript : MonoBehaviour
         sinagData.spawnIndex = this.spawnIndex;
         sinagData.playerPos = this.transform.position;
 
+
         string json = JsonUtility.ToJson(sinagData);
         File.WriteAllText(savePath, json);
         Debug.Log(savePath + " " + json);
@@ -80,7 +82,8 @@ public class SinagScript : MonoBehaviour
                 SinagData sinag = JsonUtility.FromJson<SinagData>(json);
                 Health = sinag.Health;
                 spawnIndex = sinag.spawnIndex;
-                this.transform.position = sinag.playerPos;     
+                this.transform.position = sinag.playerPos;
+                Katmbay.transform.position = sinag.playerPos;
             }
         }  
     }

@@ -222,6 +222,28 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 5d0ae62d8322ed84baf99359be52ca41, type: 3}
     - {fileID: 21300000, guid: e1cd41176ad01754ab21dff515bdad5e, type: 3}
     - {fileID: 21300000, guid: 47731a1c40720ef4eb7e303a2d046613, type: 3}
+  - id: 8
+    fields:
+    - title: Name
+      value: Villager
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
   items:
   - id: 1
     fields:
@@ -6409,6 +6431,10 @@ MonoBehaviour:
           AnimatorPlay(Death)'
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 96d71839-8055-40e5-a103-867af8ba99b0
+        type: 0
+        typeString: 
       conversationID: 9
       isRoot: 0
       isGroup: 0
@@ -6494,8 +6520,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 51.60315, y: 48.28912}
-    canvasZoom: 1.0299995
+    canvasScrollPosition: {x: 104.54711, y: 69.05268}
+    canvasZoom: 1.2399993
   - id: 10
     fields:
     - title: Title
@@ -7701,7 +7727,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -7979,7 +8005,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -8038,7 +8064,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -8277,6 +8303,10 @@ MonoBehaviour:
           2/Sinag/Sinag_Orasyon(Healing)_01)'
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 1bb83788-2b79-4602-9feb-f91ede85e633
+        type: 0
+        typeString: 
       conversationID: 13
       isRoot: 0
       isGroup: 0
@@ -8369,7 +8399,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9278,7 +9308,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Actor
-      value: 5
+      value: 8
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
@@ -9324,7 +9354,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9385,7 +9415,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9445,7 +9475,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9611,7 +9641,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9668,7 +9698,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9738,7 +9768,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9789,7 +9819,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9853,7 +9883,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9908,7 +9938,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9959,7 +9989,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10013,7 +10043,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10068,7 +10098,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10113,7 +10143,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10169,7 +10199,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 8
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10208,8 +10238,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 171.67668}
-    canvasZoom: 1.0599996
+    canvasScrollPosition: {x: 9.1318245, y: 0}
+    canvasZoom: 0.99999964
   - id: 18
     fields:
     - title: Title
@@ -12333,6 +12363,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: a52c3e9e-7593-4970-a003-73cab16fdc73
+        type: 0
+        typeString: 
       conversationID: 22
       isRoot: 0
       isGroup: 0
@@ -14156,7 +14190,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(Monster)_01)
         type: 0
         typeString: 
       conversationID: 26
@@ -14212,6 +14246,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 625c16e6-6638-489b-b42b-327ea08c8602
         type: 0
         typeString: 
       conversationID: 26
@@ -14654,7 +14692,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(Monster)_01)
         type: 0
         typeString: 
       conversationID: 27
@@ -14710,6 +14748,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 54184462-b408-49d2-a00d-d3a8a268fabc
         type: 0
         typeString: 
       conversationID: 27
@@ -14957,7 +14999,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.94000006
   - id: 28
     fields:
     - title: Title
@@ -15148,7 +15190,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(Monster)_01)
         type: 0
         typeString: 
       conversationID: 28
@@ -15204,6 +15246,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 4e802778-9cc3-4cb4-9410-38c3390e4430
         type: 0
         typeString: 
       conversationID: 28
@@ -16772,7 +16818,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 31
+        originDialogueID: 1
+        destinationConversationID: 31
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -16807,7 +16859,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Nagawa mo Sinag! Natalo\r mo si Aswang! [pic=2]"
+        value: "[pic=2] Nagawa mo Sinag! Natalo\r mo si Aswang! "
         type: 0
         typeString: 
       - title: Sequence
@@ -16862,7 +16914,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' Katambay bilis! Gusto ko makita ang labas! [pic = 2]'
+        value: ' Katambay bilis! Gusto ko makita ang labas! [pic=2]'
         type: 0
         typeString: 
       - title: Sequence
@@ -16892,6 +16944,118 @@ MonoBehaviour:
         serializedVersion: 2
         x: 231.83105
         y: 127.183105
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 31
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 31
+        originDialogueID: 4
+        destinationConversationID: 31
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 265.6339
+        y: 248.30997
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'SetDialoguePanel(false);
+
+          required SetDialoguePanel(true)@Message(SceneEnd);
+
+          Continue()@Message(SceneEnd)'
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: eb7537eb-6616-4647-a614-fe4d79d543ab
+        type: 0
+        typeString: 
+      conversationID: 31
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 265.6339
+        y: 298.30997
         width: 160
         height: 30
     entryGroups: []
@@ -17021,7 +17185,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Magbabalik ako!!!\r [pic=3]"
+        value: "[pic=3]Magbabalik ako!!!\r "
         type: 0
         typeString: 
       - title: Sequence
@@ -17080,10 +17244,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'AnimatorPlay(Death, Asuang);
-
-          AudioWait(Chapter 4/Asuang/6.
-          Asuang-map7_L2)'
+        value: AudioWait(Chapter 4/Asuang/6. Asuang-map7_L2)
         type: 0
         typeString: 
       conversationID: 32
@@ -17097,7 +17258,7 @@ MonoBehaviour:
       - originConversationID: 32
         originDialogueID: 2
         destinationConversationID: 32
-        destinationDialogueID: 4
+        destinationDialogueID: 5
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -17170,9 +17331,66 @@ MonoBehaviour:
         y: 230
         width: 160
         height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'AnimatorPlay(Death, Asuang);
+
+          Delay(3);'
+        type: 0
+        typeString: 
+      conversationID: 32
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 32
+        originDialogueID: 5
+        destinationConversationID: 32
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 313.57144
+        y: 170.17859
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 35.747604, y: 19.63229}
+    canvasZoom: 1.1199999
   - id: 33
     fields:
     - title: Title
@@ -17358,6 +17576,9 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 'AnimatorPlay(Hurt, Asuang);
+
+          AudioWait(Chapter 4/Asuang/Popo
+          Death);
 
           Delay(2);'
         type: 0
@@ -17563,8 +17784,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 77.808815, y: 19.100685}
-    canvasZoom: 0.97000027
+    canvasScrollPosition: {x: 10.27394, y: 0.23483293}
+    canvasZoom: 0.7300005
   - id: 34
     fields:
     - title: Title

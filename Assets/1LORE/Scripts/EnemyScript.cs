@@ -9,6 +9,17 @@ public class EnemyScript : MonoBehaviour
     public InventoryWeaponCheck weaponCheck;
     public Animator animator;
     public int damageAttack;
+    public AudioSource audioSource;
+    public AudioClip[] clips;
+
+    // 0 - attack
+    // 1 - death
+    // 2- orasyon sound effect
+    public void PlaySound(int index)
+    {
+        audioSource.clip = clips[index];
+        audioSource.Play();
+    }
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
