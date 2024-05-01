@@ -4853,8 +4853,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 741.9825, y: 409.95093}
-    canvasZoom: 0.63999987
+    canvasScrollPosition: {x: 674.375, y: 334.99506}
+    canvasZoom: 0.8199997
   - id: 6
     fields:
     - title: Title
@@ -19079,7 +19079,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 37
+        originDialogueID: 1
+        destinationConversationID: 37
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -19173,7 +19179,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: WASD / Arrow Key to Move. Spacebar to interact
+        value: WASD / Arrow Key to Move. Spacebar to interact.
         type: 0
         typeString: 
       - title: Sequence
@@ -19255,8 +19261,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.7600002
+    canvasScrollPosition: {x: 178.35126, y: 62.598434}
+    canvasZoom: 0.8800001
   syncInfo:
     syncActors: 0
     syncItems: 0

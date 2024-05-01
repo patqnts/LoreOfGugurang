@@ -54,6 +54,13 @@ namespace MoreMountains.InventoryEngine
 
         /// the owner of the inventory (for games where you have multiple characters)
         public GameObject Owner { get; set; }
+        public AudioClip pickSound;
+        public AudioSource sourceofAudio;
+
+        public void PlayPickk()
+        {
+            sourceofAudio.Play();
+        }
 
         /// The number of free slots in this inventory
         public int NumberOfFreeSlots { get { return Content.Length - NumberOfFilledSlots; } }
@@ -884,6 +891,7 @@ namespace MoreMountains.InventoryEngine
             switch (inventoryEvent.InventoryEventType)
             {
                 case MMInventoryEventType.Pick:
+                    PlayPickk();
                     if (inventoryEvent.EventItem.ForceSlotIndex)
                     {
                         AddItemAt(inventoryEvent.EventItem, inventoryEvent.Quantity, inventoryEvent.EventItem.TargetIndex);    
