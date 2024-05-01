@@ -1219,7 +1219,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Sa tingin ko nga ay kaya ko\r na ulit mag trabaho sa bukid. "
+        value: " Sa tingin ko nga ay kaya ko\r na ulit mag trabaho sa bukid.  [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -1744,8 +1744,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 87.73062, y: 11.328714}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 101.88424, y: 23.749355}
+    canvasZoom: 1.2699997
   - id: 3
     fields:
     - title: Title
@@ -2114,7 +2114,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Ah! Kasama pala ng kwintas\r ang litrato na ito, akala ko ay\r nawala
-          ko na."
+          ko na.[pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -2523,8 +2523,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 23.183418}
-    canvasZoom: 0.76000017
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1.03
   - id: 4
     fields:
     - title: Title
@@ -2921,7 +2921,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Sa kasamaang palad ay\r kakaonti na lamang ang\r naniniwala sa kaniya
-          sa\r panahong ito\u2026 "
+          sa\r panahong ito\u2026 [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -2950,7 +2950,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 833.39136
-        y: 330.43967
+        y: 329.76398
         width: 160
         height: 30
     - id: 3
@@ -2977,7 +2977,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: " Kaya naman ang kapangyarihan\r ni Gugurang ay hindi na\r kasinglakas
-          ng dati.\r"
+          ng dati.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -3032,7 +3032,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Kapag nakuha ni Asuang ang \rapoy ay magliliyab ang buong \rmundo.\r"
+        value: "Kapag nakuha ni Asuang ang \rapoy ay magliliyab ang buong \rmundo.\r
+          [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -3142,7 +3143,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Tulungan mo kami, Balyana. \r\n"
+        value: "Tulungan mo kami, Balyana. \r[pic=2]\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -3259,7 +3260,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Balyana, gawin mo ang mga\r ritual upang pagalingin ang mga\r may
-          sakit at tulungan ang mga\r barrio na naapektuhan ng\r kalamidad."
+          sakit at tulungan ang mga\r barrio na naapektuhan ng\r kalamidad. [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -3315,7 +3316,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "I-eksorsis ang mga makikita\r mong Bonggo upang maligtas ang\r mga
-          tao.\r"
+          tao.\r [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -3431,7 +3432,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Hmm\u2026 tutulungan ka ni\r Katambay sa iyong mga\r katanungan.\r"
+        value: " Hmm\u2026 tutulungan ka ni\r Katambay sa iyong mga\r katanungan.\r
+          [pic=1]"
         type: 0
         typeString: 
       - title: Sequence
@@ -4282,9 +4284,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Maglikay ka, Balyana. Dios
-
-          Mabalos.'
+        value: Maglikay ka, Balyana. Dios Mabalos. [pic=2]
         type: 0
         typeString: 
       - title: Sequence
@@ -4339,7 +4339,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Marhay na hapon, Balyana.\r"
+        value: "Marhay na hapon, Balyana.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -4449,7 +4449,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Balyana, ako si Batala, tagapagpadala ng mensahe ni Gugurang. '
+        value: Balyana, ako si Batala, tagapagpadala ng mensahe ni Gugurang. [pic=2]
         type: 0
         typeString: 
       - title: Sequence
@@ -4506,7 +4506,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "Narito ako upang ipabatid sa\u2019yo na hindi pa patay si Asuang.
           Kailangan namin ang iyong tulong upang pigilan siyang nakawin muli ang
-          apoy sa Mayon.\r"
+          apoy sa Mayon.\r[pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -4616,7 +4616,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Ang anting na \u2018yan, hindi ba\u2019t ikaw ay isang Balyana?\r"
+        value: "Ang anting na \u2018yan, hindi ba\u2019t ikaw ay isang Balyana?[pic=4]"
         type: 0
         typeString: 
       - title: Sequence
@@ -4672,7 +4672,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: Ang mga tagasunod ni Asuang ay naghahasik ng lagim sa mga barrio sa
-          mga oras na ito.
+          mga oras na ito. [pic=2]
         type: 0
         typeString: 
       - title: Sequence
@@ -4727,8 +4727,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Maraming barrio ang nasusunog at mga taong nagkakasakit dahil gusto
-          silang dalhin ni Asuang sa gagamban (underworld).\r"
+        value: Maraming barrio ang nasusunog at mga taong nagkakasakit dahil gusto
+          silang dalhin ni Asuang sa gagamban (underworld). [pic=3]
         type: 0
         typeString: 
       - title: Sequence
@@ -4816,8 +4816,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 258.60135, y: 190.88951}
-    canvasZoom: 0.46000004
+    canvasScrollPosition: {x: 374.94504, y: 426.59232}
+    canvasZoom: 0.9699997
   - id: 6
     fields:
     - title: Title
@@ -5342,7 +5342,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Mukang handa ka na sa\rating paglalakbay. Tara na,\r Sinag.\r"
+        value: "Mukang handa ka na sa\rating paglalakbay. Tara na,\r Sinag.\r [pic=1]"
         type: 0
         typeString: 
       - title: Sequence
@@ -5371,7 +5371,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 607.4097
+        x: 609.4716
         y: 402.14752
         width: 160
         height: 30
@@ -5454,7 +5454,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Bakit lambanog?\r"
+        value: "Bakit lambanog?\r[picc=4]"
         type: 0
         typeString: 
       - title: Sequence
@@ -5510,7 +5510,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Madaming tumatanggap ng\r lambanog bilang alay, baka\r ito\u2019y
-          iyong magamit.\r"
+          iyong magamit.\r[pic=1]"
         type: 0
         typeString: 
       - title: Sequence
@@ -5599,8 +5599,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 351.96948, y: 36.245728}
-    canvasZoom: 0.8499998
+    canvasScrollPosition: {x: 161.38115, y: 0}
+    canvasZoom: 0.9699997
   - id: 8
     fields:
     - title: Title
@@ -6042,8 +6042,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 45.917534}
-    canvasZoom: 1.0300001
+    canvasScrollPosition: {x: 16.144478, y: 41.732285}
+    canvasZoom: 1.2699999
   - id: 9
     fields:
     - title: Title
@@ -6620,7 +6620,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Huh? Ano yung Liwanag na\r \u2018yun?\r"
+        value: " Huh? Ano yung Liwanag na\r \u2018yun?\r[pic=4]"
         type: 0
         typeString: 
       - title: Sequence
@@ -6709,7 +6709,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 160.91745
         y: 130
         width: 160
         height: 30
@@ -6846,7 +6846,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Una, pag matagumpay mo na\r naeksorsis ang kampon ni\r Aswang.\r"
+        value: "Una, pag matagumpay mo na\r naeksorsis ang kampon ni\r Aswang.\r[pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -6957,7 +6957,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Pangatlo ay pag nagamot mo ang\r mga taong naapektuhan ng\r kasamaan
-          ni Aswang.\r"
+          ni Aswang.\r[pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -7120,7 +7120,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Ang lugar na ito ay\r tinatawag na Gulanggulangan,\r dito ginagawa
-          ang atang na alay\r kay Gugurang. Ilagay mo ang\r alay sa salangat.\r"
+          ang atang na alay\r kay Gugurang. Ilagay mo ang\r alay sa salangat.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -7775,7 +7775,8 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Mukang ang sakit ng\r taong ito ay nanggagaling sa\r impluwensya
-          ni Asuang. Gamutin\r mo siya Sinag upang hindi siya\r mapunta sa Gagamban.\r"
+          ni Asuang. Gamutin\r mo siya Sinag upang hindi siya\r mapunta sa Gagamban.\r
+          [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -7830,7 +7831,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "..!\r"
+        value: "..!\r[pic=5]"
         type: 0
         typeString: 
       - title: Sequence
@@ -7886,7 +7887,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: Tumingin ka sa aklat ng albularyo upang makahanap ng ipanggagamot
-          mo, Sinag.
+          mo, Sinag. [pic=2]
         type: 0
         typeString: 
       - title: Sequence
@@ -7935,7 +7936,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Phew!..
+        value: '[pic=2]Phew!..'
         type: 0
         typeString: 
       - title: Sequence
@@ -8748,7 +8749,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Gusto ko sana kainin pero\r sige sa\u2019yo na..\r"
+        value: "Gusto ko sana kainin pero\r sige sa\u2019yo na..\r[pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -8803,7 +8804,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' Ehem..'
+        value: ' Ehem.. [pic=3]'
         type: 0
         typeString: 
       - title: Sequence
@@ -8937,7 +8938,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 167
-        y: 369
+        y: 368
         width: 160
         height: 30
     - id: 5
@@ -9111,8 +9112,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 52.043514}
-    canvasZoom: 0.7600002
+    canvasScrollPosition: {x: 23.385048, y: 68.92648}
+    canvasZoom: 1
   - id: 16
     fields:
     - title: Title
@@ -9237,7 +9238,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' ..! Ano ang nangyayari dito?'
+        value: ' ..! Ano ang nangyayari dito?[pic=5]'
         type: 0
         typeString: 
       - title: Sequence
@@ -9452,7 +9453,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Katambay, normal ba ito?
+        value: Katambay, normal ba ito? [pic=5]
         type: 0
         typeString: 
       - title: Sequence
@@ -9507,7 +9508,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Hindi, sigurado ako na impluwensya ito ni Asuang. '
+        value: Hindi, sigurado ako na impluwensya ito ni Asuang. [pic=3]
         type: 0
         typeString: 
       - title: Sequence
@@ -9563,7 +9564,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Maari kang gumawa ng ritual\r para maalis ang impluwensya ni\r Asuang
-          sa lupa na tinataniman\r nila.\r"
+          sa lupa na tinataniman\r nila.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -9592,7 +9593,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 230
+        y: 229.08258
         width: 160
         height: 30
     - id: 5
@@ -9745,7 +9746,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Daing ano man.
+        value: Daing ano man. [pic=2]
         type: 0
         typeString: 
       - title: Sequence
@@ -9773,7 +9774,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 148.60759
+        x: 147.6642
         y: 459.11392
         width: 160
         height: 30
@@ -9834,7 +9835,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 148.60759
-        y: 509.11368
+        y: 508.17032
         width: 160
         height: 30
     - id: 10
@@ -9915,7 +9916,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Mm.. hehe mukang masarap
+        value: Mm.. hehe mukang masarap [pic=2]
         type: 0
         typeString: 
       - title: Sequence
@@ -9970,7 +9971,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Hmm mukang pwede itong\r himoloan na ipang alay kay\r Gugurang."
+        value: " Hmm mukang pwede itong\r himoloan na ipang alay kay\r Gugurang.
+          [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -10206,8 +10208,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 5.5772943, y: 0.58708316}
-    canvasZoom: 0.7299999
+    canvasScrollPosition: {x: 0, y: 171.67668}
+    canvasZoom: 1.0599996
   - id: 18
     fields:
     - title: Title
@@ -10393,7 +10395,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ..!
+        value: ..! [pic=5]
         type: 0
         typeString: 
       - title: Sequence
@@ -10726,7 +10728,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Tambaluslos?
+        value: Tambaluslos? [pic=4]
         type: 0
         typeString: 
       - title: Sequence
@@ -11007,7 +11009,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Nice..! Bibigyan na din\r kita ng pang taboy sa\r masasamang nilalang."
+        value: "Nice..! Bibigyan na din\r kita ng pang taboy sa\r masasamang nilalang.
+          [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -11117,7 +11120,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Walang anuman!
+        value: Walang anuman! [pic=2]
         type: 0
         typeString: 
       - title: Sequence
@@ -11211,8 +11214,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 216.00192, y: 34.944626}
-    canvasZoom: 1.0300001
+    canvasScrollPosition: {x: 52.00963, y: 0}
+    canvasZoom: 1.3299999
   - id: 19
     fields:
     - title: Title
@@ -11337,7 +11340,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hindi mo pa\r nakukumpleto ang alay kay\r Gugurang.\r"
+        value: "Hindi mo pa\r nakukumpleto ang alay kay\r Gugurang. [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -11722,7 +11725,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Ito na ang huling\r altar, Sinag. Makakapunta na\r tayo sa Mayon.\r"
+        value: "Ito na ang huling\r altar, Sinag. Makakapunta na\r tayo sa Mayon.\r
+          [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -11745,7 +11749,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 90
-        y: 253
+        y: 252.02911
         width: 160
         height: 30
     - id: 6
@@ -12706,7 +12710,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Napaka dilim naman dito.
+        value: Napaka dilim naman dito [pic=4]
         type: 0
         typeString: 
       - title: Sequence
@@ -12761,7 +12765,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Mukang tama nga ang\r kutob ko, napasakamay na ni\r Asuang ang apoy."
+        value: " Mukang tama nga ang\r kutob ko, napasakamay na ni\r Asuang ang apoy.
+          [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -12816,7 +12821,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hanapin na natin si\r Gugurang!\r"
+        value: "Hanapin na natin si\r Gugurang!\r [pic=5]"
         type: 0
         typeString: 
       - title: Sequence
@@ -12844,7 +12849,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 161.03094
         y: 180
         width: 160
         height: 30
@@ -13085,7 +13090,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Gugurang? Ano ang nangyari\r sa\u2019yo?"
+        value: " Gugurang? Ano ang nangyari\r sa\u2019yo? [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -13141,7 +13146,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Kakaonti na lamang ang\r mga taong naniniwala saakin at\r sa paniniwala
-          ng mga tao\r nanggagaling ang lakas ko."
+          ng mga tao\r nanggagaling ang lakas ko. [pic=4]"
         type: 0
         typeString: 
       - title: Sequence
@@ -13282,7 +13287,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 280
+        y: 279.13043
         width: 160
         height: 30
     - id: 6
@@ -13366,7 +13371,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Maraming salamat,\r Gugurang! Huwag kang magalala,\r gagawin ko ang
-          lahat para\r maibalik sa\u2019yo ang apoy.\r"
+          lahat para\r maibalik sa\u2019yo ang apoy.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -13684,8 +13689,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0.41248417, y: 43.604515}
-    canvasZoom: 0.88000023
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.9100002
   - id: 25
     fields:
     - title: Title
@@ -13959,8 +13964,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 61.92127, y: 20.299536}
-    canvasZoom: 1.2699997
+    canvasScrollPosition: {x: 66.130196, y: 25.911993}
+    canvasZoom: 1.3299997
   - id: 26
     fields:
     - title: Title
@@ -16708,7 +16713,7 @@ MonoBehaviour:
       - originConversationID: 31
         originDialogueID: 0
         destinationConversationID: 31
-        destinationDialogueID: 1
+        destinationDialogueID: 2
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -16745,7 +16750,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Nagawa mo Sinag! Natalo\r mo si Aswang!"
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -16775,13 +16780,123 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
-        y: 80
+        x: 265.6339
+        y: 198.30997
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: " Nagawa mo Sinag! Natalo\r mo si Aswang! [pic=2]"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 31
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 31
+        originDialogueID: 2
+        destinationConversationID: 31
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 200.14087
+        y: 77.88733
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: Bumalik na ba sa normal ang lahat?
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ' Katambay bilis! Gusto ko makita ang labas! [pic = 2]'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 31
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 31
+        originDialogueID: 3
+        destinationConversationID: 31
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 231.83105
+        y: 127.183105
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.909999
+    canvasScrollPosition: {x: 92.33248, y: 26.772}
+    canvasZoom: 1.4199985
   - id: 32
     fields:
     - title: Title
@@ -16906,7 +17021,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Magbabalik ako!!!\r"
+        value: "Magbabalik ako!!!\r [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -16934,7 +17049,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 159
         y: 80
         width: 160
         height: 30
@@ -16961,7 +17076,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Pagbabayaran nyo\r lahat ng ginawa nyo sakin!!"
+        value: "Pagbabayaran nyo\r lahat ng ginawa nyo sakin!! [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -17057,7 +17172,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.9100001
   - id: 33
     fields:
     - title: Title
