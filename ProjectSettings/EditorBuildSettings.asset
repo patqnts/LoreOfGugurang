@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/LORE/CH1/SPLASHSCREEN.unity
+    guid: f096925a1fe10eb499380ff5d32e1338
+  - enabled: 1
     path: Assets/Scenes/LORE/CH1/LoreMenu.unity
     guid: 6fbc76719d04fc44ba23d38e89857726
   - enabled: 1
