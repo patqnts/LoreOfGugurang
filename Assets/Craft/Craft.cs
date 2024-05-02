@@ -39,6 +39,7 @@ namespace Craft
             if (inventory.AddItem(recipe.Item, recipe.Quantity))
             {
                 MMInventoryEvent.Trigger(MMInventoryEventType.Pick, null, string.Empty, recipe.Item, recipe.Quantity, 0, "Player1");
+                SinagScript.instance.PlaySound(1);
                 return;
             }
             foreach (var ingredient in recipe.Ingredients)
