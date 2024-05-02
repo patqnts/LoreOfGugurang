@@ -9834,7 +9834,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(4)
         type: 0
         typeString: 
       conversationID: 17
@@ -9995,8 +9995,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Maari kang gumawa ng ritual\r para maalis ang impluwensya ni\r Asuang
-          sa lupa na tinataniman\r nila.\r [pic=2]"
+        value: "Maari kang gumawa ng ritual (Ginhawa Potion)\r para maalis ang impluwensya
+          ni\r Asuang sa lupa na tinataniman\r nila.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -10460,6 +10460,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 15e88a36-c1ff-499c-bbe0-271306c743cb
+        type: 0
+        typeString: 
       conversationID: 17
       isRoot: 0
       isGroup: 0
@@ -10481,8 +10485,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 388.6173
-        y: 282.99875
+        x: 369.93597
+        y: 334.64713
         width: 160
         height: 30
     - id: 14
@@ -10640,8 +10644,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.87999976
+    canvasScrollPosition: {x: 57.932453, y: 28.774193}
+    canvasZoom: 0.9099997
   - id: 18
     fields:
     - title: Title

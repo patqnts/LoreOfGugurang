@@ -12,6 +12,22 @@ namespace MoreMountains.InventoryEngine
 	/// </summary>
 	public class BaseItem : InventoryItem 
 	{
-				
-	}
+        [Header("Health Bonus")]
+        /// the amount of health to add to the player when the item is used
+        public int HealthBonus;
+
+        /// <summary>
+        /// What happens when the object is used 
+        /// </summary>
+        public override bool Use(string playerID)
+        {
+            base.Use("Player1");
+            // This is where you would increase your character's health,
+            // with something like : 
+            // Player.Life += HealthValue;
+            // of course this all depends on your game codebase.
+            Debug.LogFormat("increase character " + playerID + "'s health by " + HealthBonus);
+            return true;
+        }
+    }
 }

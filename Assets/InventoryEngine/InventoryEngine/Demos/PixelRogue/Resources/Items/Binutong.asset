@@ -16,8 +16,8 @@ MonoBehaviour:
   TargetInventoryName: RogueMainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
-  Usable: 1
-  Consumable: 1
+  Usable: 0
+  Consumable: 0
   ConsumeQuantity: 1
   Equippable: 0
   MoveWhenEquipped: 1

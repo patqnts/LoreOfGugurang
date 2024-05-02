@@ -33,7 +33,7 @@ public class SinagScript : MonoBehaviour
     }
     private void Start()
     {
-        TakeDamage(0);
+        SetHealth();
     }
     public void ResetGame()
     {
@@ -118,13 +118,18 @@ public class SinagScript : MonoBehaviour
             //Restart spawnpoint
             DeathMethod();
         }
-        healthText.text = $"{Health}/{MaxHealth}";
+        
         PlaySound(0);
+        SetHealth();
+    }
+
+    public void SetHealth()
+    {
+        healthText.text = $"{Health}/{MaxHealth}";
     }
 
     public void DeathMethod() 
     {
-
         //Player Spawnpoint script
         PlayerController.player.moveSpeed = 0;
         AsuangScript.instance.ToggleSpriteRenderer(2);
@@ -136,7 +141,7 @@ public class SinagScript : MonoBehaviour
     public void Respawn()
     {
         Health = 1;
-        TakeDamage(0);
+        SetHealth();
         this.transform.position = spawnpoints[spawnIndex].position;
     }
 }

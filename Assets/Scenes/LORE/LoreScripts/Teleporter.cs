@@ -9,9 +9,12 @@ public class Teleporter : MonoBehaviour
     {
         GameObject player = collision.gameObject;
 
-        if (player != null && player.tag == "Player")
+        if (player != null)
         {
-            player.transform.position = target.position;
+            if (player.tag == "Player" || player.tag == "Bio")
+            {
+                player.transform.position = target.position;
+            }           
         }
     }
 }
