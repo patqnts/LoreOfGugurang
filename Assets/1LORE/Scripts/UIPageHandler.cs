@@ -8,10 +8,10 @@ public class UIPageHandler : MonoBehaviour
     public Sprite[] pages; // Array of sprites representing the pages
     private int currentPageIndex = 0;
     public GameObject book;
-
+    public AudioSource auds;
     private void Start()
     {
-        UpdatePageContainers();
+        UpdatePageContainers();        
     }
 
     private void Update()
@@ -19,6 +19,7 @@ public class UIPageHandler : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J))
         {
             ToggleBookDisplay();
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -56,12 +57,14 @@ public class UIPageHandler : MonoBehaviour
             {
                 pageContainers[i].sprite = pages[pageIndex];
                 pageContainers[i].gameObject.SetActive(true);
+                auds.Play();
             }
             else
             {
                 pageContainers[i].gameObject.SetActive(false);
             }
         }
+        
     }
 
     private void ToggleBookDisplay()
