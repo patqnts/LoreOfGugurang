@@ -87,10 +87,12 @@ public class InventoryWeaponCheck : MonoBehaviour
     public void UseMainItemForDialogue(string itemID)
     {
         List<int> myList = mainInventory.InventoryContains(itemID);
+        Debug.Log("target index");
 
         if (myList.Count > 0)
         {
             MMInventoryEvent.Trigger(MMInventoryEventType.UseRequest, null, "RogueMainInventory", mainInventory.Content[myList[0]], 1, 0, "Player1");
+            mainInventory.RemoveItemByID(itemID,1);
 
             playerController.SaveInventory();
             playerController.LoadInventory();

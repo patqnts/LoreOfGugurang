@@ -26,7 +26,7 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Tsaang-Gubat
-  ShortDescription: Tsaang-Gubat
+  ShortDescription: 
   Description: Tsaang-Gubat
   Icon: {fileID: 21300000, guid: 7867cd04cc10946439d294801105b5cb, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
