@@ -52,7 +52,7 @@ namespace PixelCrushers
             SaveSystem.sceneLoaded -= OnSceneLoaded;
         }
 
-        private void OnSaveStarted()
+        public void OnSaveStarted()
         {
             onSaveStart.Invoke();
         }

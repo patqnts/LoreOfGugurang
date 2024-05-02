@@ -1,13 +1,23 @@
+using PixelCrushers;
+using PixelCrushers.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class UIScript : MonoBehaviour
 {
+    public DialogueSystemSaver systemSaver;
     public GameObject backObject;
     public GameObject[] otherUI;
     bool isOpen;
+
+    private void Start()
+    {
+        systemSaver = FindObjectOfType<DialogueSystemSaver>();
+    }  
+   
     private void Update()
     {
         int index = 0;
@@ -31,7 +41,12 @@ public class UIScript : MonoBehaviour
     }
     public void GoToMenu()
     {
-        SceneManager.LoadScene("LoreMenu");
+        //systemSaver.restoreStateOnStart = true;
+        Debug.Log("Restore state menu");
+        PixelCrushers.SaveSystem.SaveToSlotImmediate(1);      
+        SaveSystem.LoadScene("LoreMenu");
+        SaveSystem.ResetGameState();
+
     }
 
     public void QuitApp()

@@ -35,7 +35,14 @@ public class SinagScript : MonoBehaviour
     {
         TakeDamage(0);
     }
+    public void ResetGame()
+    {
+        ResetInventory(weapon);
+        ResetInventory(main);
+        SaveSystem.ResetGameState();
+        SaveSystem.LoadScene("LoreMenu");
 
+    }
     public void SetSpawnIndex(int index)
     {
         spawnIndex = index;
@@ -67,15 +74,7 @@ public class SinagScript : MonoBehaviour
         SaveTypeScript sts = FindObjectOfType<SaveTypeScript>();
         if (sts != null)
         {
-            
-            if (sts.saveType == 0) // NEW GAME
-            {
-                ResetInventory(weapon);
-                ResetInventory(main);
-                Debug.Log("New Game");              
-            }
-
-            else if (File.Exists(savePath) && sts.saveType == 1)
+            if (File.Exists(savePath) && sts.saveType == 1)
             {
                 Debug.Log(savePath);
                 string json = File.ReadAllText(savePath);
@@ -83,8 +82,17 @@ public class SinagScript : MonoBehaviour
                 Health = sinag.Health;
                 spawnIndex = sinag.spawnIndex;
                 this.transform.position = sinag.playerPos;
-                Katmbay.transform.position = sinag.playerPos;
+                Katmbay.transform.position = sinag.playerPos;                
+                Debug.Log("Continue");
             }
+            else if (sts.saveType == 0) // NEW GAME
+            {
+                ResetInventory(weapon);
+                ResetInventory(main);
+                Debug.Log("New Game");              
+            }
+
+            
         }  
     }
 

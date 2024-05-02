@@ -89,4 +89,9 @@ public class PlayerController : MonoBehaviour
         rb.velocity = Vector2.zero;
     }
 
+    public void ResetGame()
+    {
+
+    }
+
 }
