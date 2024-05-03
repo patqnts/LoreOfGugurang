@@ -6,6 +6,7 @@ using UnityEngine;
 public class AsuangScript : MonoBehaviour
 {
     private Transform player;
+    public CircleCollider2D circleCollider2d;
     public SpriteRenderer sprite;
     public Animator animator;
     public Transform[] movePositions;
@@ -58,18 +59,20 @@ public class AsuangScript : MonoBehaviour
     IEnumerator CompleteMoveset()
     {
         isOnCooldown = true;
-
+       
         // Execute moveset for the specified duration
         yield return StartCoroutine(MovesetCoroutine());
 
         // Start cooldown after moveset duration
         yield return new WaitForSeconds(cooldownDuration);
         isOnCooldown = false;
+
     }
 
     IEnumerator MovesetCoroutine()
     {
         float elapsedTime = 0f;
+        circleCollider2d.enabled = false;
         while (elapsedTime < movesetDuration)
         {
             // Select a random position from the array
@@ -94,6 +97,7 @@ public class AsuangScript : MonoBehaviour
             Debug.Log(elapsedTime);
         }
         DialogueManager.StartConversation("Liwanag");
+        circleCollider2d.enabled = true;
     }
 
     IEnumerator MoveToPosition(Vector3 targetPosition)
