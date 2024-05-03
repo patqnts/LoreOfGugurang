@@ -122,11 +122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2006af4e335650e4fb6a56390d76fbe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 6
   lifetime: 7
   animator: {fileID: 3166419296527734845}
   audiosource: {fileID: 3281833957117156615}
-  HitSound: {fileID: 8300000, guid: 5beaac8c742026b408ef85772caad76e, type: 3}
 --- !u!58 &2754975487874936022
 CircleCollider2D:
   m_ObjectHideFlags: 0

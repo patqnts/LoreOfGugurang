@@ -81,8 +81,15 @@ public class SinagScript : MonoBehaviour
                 SinagData sinag = JsonUtility.FromJson<SinagData>(json);
                 Health = sinag.Health;
                 spawnIndex = sinag.spawnIndex;
-                this.transform.position = sinag.playerPos;
-                Katmbay.transform.position = sinag.playerPos;                
+                if(spawnIndex >= 5)
+                {
+                    Respawn();
+                }
+                else
+                {
+                    this.transform.position = sinag.playerPos;
+                }               
+                Katmbay.transform.position = this.transform.position;                
                 Debug.Log("Continue");
             }
             else if (sts.saveType == 0) // NEW GAME
@@ -140,7 +147,12 @@ public class SinagScript : MonoBehaviour
 
     public void Respawn()
     {
+        DialogueManager.StopAllConversations();
         Health = 1;
+        if(spawnIndex >= 5)
+        {
+            Health = MaxHealth;
+        }
         SetHealth();
         this.transform.position = spawnpoints[spawnIndex].position;
     }
