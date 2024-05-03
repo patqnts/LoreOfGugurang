@@ -8,7 +8,8 @@ public class deathscript : MonoBehaviour
     public GameObject ch4blocker;
     public void ConfirmButton()
     {
-        SinagScript.instance.Respawn();       
+        
+        SinagScript.instance.Respawn();          
         PlayerController.player.moveSpeed = 3;
         ch4trigger.SetActive(true);
         ch4blocker.SetActive(false);

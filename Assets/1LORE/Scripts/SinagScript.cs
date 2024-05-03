@@ -23,6 +23,7 @@ public class SinagScript : MonoBehaviour
     public AudioClip[] clips;
     public GameObject Katmbay;
     
+    
     // 0 - hurt
     // 1 - interact/pick
     // 2- orasyon sound effect
@@ -46,6 +47,7 @@ public class SinagScript : MonoBehaviour
     public void SetSpawnIndex(int index)
     {
         spawnIndex = index;
+        AudioHandler.instance.StateMusic();
     }
     public void PlaySound(int index)
     {
@@ -147,6 +149,7 @@ public class SinagScript : MonoBehaviour
 
     public void Respawn()
     {
+        AudioHandler.instance.SetBossFight(false);
         DialogueManager.StopAllConversations();
         Health = 1;
         if(spawnIndex >= 5)

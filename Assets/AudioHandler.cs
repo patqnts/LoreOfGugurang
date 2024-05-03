@@ -15,14 +15,35 @@ public class AudioHandler : MonoBehaviour
     // clip[3] = COMBAT
     // clip[4] = ORASYON
     // clip[5] = BOSS
-
+    private bool isBossFight;
     public static AudioHandler instance;
     void Start()
     {
         instance = this;
-        if(SinagScript.instance.spawnIndex >= 3)
+        StateMusic();
+    }
+
+    public void SetBossFight(bool isBossFight)
+    {
+        this.isBossFight = isBossFight;
+        StateMusic();
+    }
+    public void StateMusic()
+    {
+        if(SinagScript.instance.spawnIndex <= 3)
         {
-            ChangeMusic(2);
+            ChangeMusic(1);
+        }
+        else if (SinagScript.instance.spawnIndex >= 4)
+        {
+            if(isBossFight)
+            {
+                ChangeMusic(5);
+            }
+            else
+            {
+                ChangeMusic(2);
+            }           
         }
     }
 

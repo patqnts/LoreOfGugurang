@@ -275,30 +275,14 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-    - title: Display Name
-      value: Hanapin ang susi.
-      type: 0
-      typeString: CustomFieldType_Text
     - title: Trackable
-      value: True
+      value: False
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Track
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
-    - title: Entry Count
-      value: 1
-      type: 1
-      typeString: CustomFieldType_Number
-    - title: Entry 1 State
-      value: active
-      type: 0
-      typeString: CustomFieldType_QuestState
-    - title: Entry 1
-      value: 'Status: [var=KeyObtained]'
-      type: 0
-      typeString: CustomFieldType_Text
   - id: 2
     fields:
     - title: Name
@@ -330,7 +314,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Trackable
-      value: False
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Track
@@ -12735,8 +12719,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 209.68877
-        y: 272.72388
+        x: 406.39206
+        y: 195.80081
         width: 160
         height: 30
     - id: 11
@@ -12784,7 +12768,7 @@ MonoBehaviour:
       - originConversationID: 22
         originDialogueID: 11
         destinationConversationID: 22
-        destinationDialogueID: 10
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -14132,7 +14116,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9100002
+    canvasZoom: 0.7000004
   - id: 25
     fields:
     - title: Title
@@ -14622,7 +14606,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 284.84436
+        x: 377.84436
         y: 313.14105
         width: 160
         height: 30
@@ -14671,7 +14655,7 @@ MonoBehaviour:
       - originConversationID: 26
         originDialogueID: 17
         destinationConversationID: 26
-        destinationDialogueID: 16
+        destinationDialogueID: 19
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -14758,7 +14742,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Popo Death Animation
+        value: 'Popo Death '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15124,8 +15108,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 231.84438
-        y: 437.14105
+        x: 375.4614
+        y: 435.01337
         width: 160
         height: 30
     - id: 24
@@ -15173,7 +15157,7 @@ MonoBehaviour:
       - originConversationID: 27
         originDialogueID: 24
         destinationConversationID: 27
-        destinationDialogueID: 23
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -15260,7 +15244,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Popo Death Animation
+        value: 'Popo Death '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15406,8 +15390,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 45.735493, y: 98.221306}
+    canvasZoom: 0.85000014
   - id: 28
     fields:
     - title: Title
@@ -15622,8 +15606,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 278.84436
-        y: 406.14105
+        x: 465.42966
+        y: 400.0435
         width: 160
         height: 30
     - id: 24
@@ -15671,7 +15655,7 @@ MonoBehaviour:
       - originConversationID: 28
         originDialogueID: 24
         destinationConversationID: 28
-        destinationDialogueID: 23
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -15758,7 +15742,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Popo Death Animation
+        value: 'Popo Death '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15899,8 +15883,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 282.84436
-        y: 532.80225
+        x: 475.52725
+        y: 538.89984
         width: 160
         height: 30
     entryGroups: []
@@ -16906,11 +16890,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 7
         type: 5
@@ -16922,18 +16906,18 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: ...
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 'AnimatorPlay(Hide, Asuang);
 
           CinemachineTarget(Virtual
           Camera, Asuang,follow);'
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 30
       isRoot: 0
       isGroup: 0
@@ -17023,8 +17007,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 76.802704, y: 90.14401}
-    canvasZoom: 0.64000034
+    canvasScrollPosition: {x: 161.2992, y: 37.975773}
+    canvasZoom: 0.7600002
   - id: 31
     fields:
     - title: Title
@@ -17216,7 +17200,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Katambay/Chapter 4_Map 7 Inside Malinao_Line01)
         type: 0
         typeString: 
       conversationID: 31
@@ -17271,7 +17255,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Sinag/4. Sinag-scene12_L4_01)
         type: 0
         typeString: 
       conversationID: 31
@@ -17530,8 +17514,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 107.82348, y: 94.36286}
-    canvasZoom: 1.3299986
+    canvasScrollPosition: {x: 24.244606, y: 0}
+    canvasZoom: 0.909999
   - id: 32
     fields:
     - title: Title
@@ -17774,7 +17758,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: EventGuid
-        value: 5957d7e0-157f-44d6-bbfe-ac76fe79be70
+        value: 
         type: 0
         typeString: 
       conversationID: 32
@@ -17968,11 +17952,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -17984,14 +17968,17 @@ MonoBehaviour:
       - title: Menu Text
         value: Orasyon
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "Lason kontra sa alipin\r ng kasamaan, ulanan mo ng\r kahinaan ang
-          elementong\r sumisira sa mundo.\r"
+        value: Orasyon (Agimat)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(Monster)_01)
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: adaa66de-8a61-4034-909a-be025272e284
         type: 0
         typeString: 
       conversationID: 33
@@ -18015,7 +18002,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 159.02914
         y: 80
         width: 160
         height: 30
@@ -18255,8 +18242,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 10.27394, y: 0.23483293}
-    canvasZoom: 0.7300005
+    canvasScrollPosition: {x: 60.509663, y: 10.039229}
+    canvasZoom: 1.0300002
   - id: 34
     fields:
     - title: Title

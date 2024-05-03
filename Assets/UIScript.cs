@@ -16,6 +16,7 @@ public class UIScript : MonoBehaviour
     private void Start()
     {
         systemSaver = FindObjectOfType<DialogueSystemSaver>();
+        DialogueManager.StopAllConversations();
     }  
    
     private void Update()
@@ -41,6 +42,7 @@ public class UIScript : MonoBehaviour
     }
     public void GoToMenu()
     {
+        DialogueManager.StopAllConversations();
         //systemSaver.restoreStateOnStart = true;
         Debug.Log("Restore state menu");
         PixelCrushers.SaveSystem.SaveToSlotImmediate(1);      

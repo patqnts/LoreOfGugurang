@@ -330,7 +330,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Trackable
-      value: True
+      value: False
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Track
@@ -897,7 +897,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "Buti nalang ay sem break\r namin ngayon sa school.\r Mababantayan
-          ko si Lola... \nSana\r naman ay gumaling na siya.\r"
+          ko si Lola...  Sana\r naman ay gumaling na siya.\r"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -957,7 +957,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Kailangan ko pumasok sa\rloob at para makita ko na si\r Lola\u2026\r"
+        value: "Kailangan ko pumasok sa \rloob at para makita ko na si\r Lola\u2026\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -1296,8 +1296,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Si lola naman,\r pinagbawalan kayo ng doktor\r magtrabaho hindi ba? 
-          [pic=3]"
+        value: "Si lola naman,\r pinag bawalan kayo ng doktor\r magtrabaho hindi
+          ba?  [pic=3]"
         type: 0
         typeString: 
       - title: Sequence
@@ -1766,8 +1766,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 101.88424, y: 23.749355}
-    canvasZoom: 1.2699997
+    canvasScrollPosition: {x: 109.24174, y: 9.664246}
+    canvasZoom: 1.03
   - id: 3
     fields:
     - title: Title
@@ -1904,7 +1904,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: (Bibuksan ang baul)
+        value: (Binuksan ang baul)
         type: 0
         typeString: 
       - title: Sequence
@@ -2018,7 +2018,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: (Buksan ang baul)
+        value: (Binuksan ang baul)
         type: 0
         typeString: 
       - title: Sequence
@@ -2414,7 +2414,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: (Buksan ang baul)
+        value: (Binuksan ang baul)
         type: 0
         typeString: 
       - title: Sequence
@@ -2545,8 +2545,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.03
+    canvasScrollPosition: {x: 27.274725, y: 4.3006167}
+    canvasZoom: 0.9100001
   - id: 4
     fields:
     - title: Title
@@ -2757,7 +2757,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 159
-        y: 140
+        y: 141
         width: 160
         height: 30
     entryGroups: []
@@ -2998,8 +2998,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Kaya naman ang kapangyarihan\r ni Gugurang ay hindi na\r kasinglakas
-          ng dati.\r [pic=2]"
+        value: " Kaya naman ang kapangyarihan\r ni Gugurang ay hindi na\r kasing
+          lakas ng dati.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -4853,8 +4853,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 674.375, y: 334.99506}
-    canvasZoom: 0.8199997
+    canvasScrollPosition: {x: 528.49274, y: 139.97108}
+    canvasZoom: 0.78999984
   - id: 6
     fields:
     - title: Title
@@ -5746,8 +5746,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 96.37638, y: 0}
-    canvasZoom: 0.9399997
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.8199998
   - id: 8
     fields:
     - title: Title
@@ -6221,7 +6221,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2)
         type: 0
         typeString: 
       conversationID: 8
@@ -6276,7 +6276,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2)
         type: 0
         typeString: 
       conversationID: 8
@@ -6354,8 +6354,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 155.31454, y: 176.35007}
-    canvasZoom: 1.09
+    canvasScrollPosition: {x: 82.16405, y: 118.72512}
+    canvasZoom: 0.88000023
   - id: 9
     fields:
     - title: Title
@@ -7235,7 +7235,7 @@ MonoBehaviour:
       - originConversationID: 10
         originDialogueID: 7
         destinationConversationID: 10
-        destinationDialogueID: 8
+        destinationDialogueID: 9
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -7272,17 +7272,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Pangatlo ay pag nagamot mo ang\r mga taong naapektuhan ng\r kasamaan
-          ni Aswang.\r[pic=2]"
+        value: 
         type: 0
         typeString: 
       - title: Sequence
         value: '{{default}};
 
-          CinemachineTarget(Virtual Camera, Player,follow);
-
-          AudioWait(Chapter
-          2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line010);'
+          CinemachineTarget(Virtual Camera, Player,follow);'
         type: 0
         typeString: 
       - title: EventGuid
@@ -7308,9 +7304,65 @@ MonoBehaviour:
         y: 430
         width: 160
         height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Pangatlo ay pag nagamot mo ang\r mga taong naapektuhan ng\r kasamaan
+          ni Aswang.\r[pic=2]"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line010);
+        type: 0
+        typeString: 
+      conversationID: 10
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10
+        originDialogueID: 9
+        destinationConversationID: 10
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 434.10712
+        y: 398.75
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 47.968002, y: 30.164757}
-    canvasZoom: 1.0899999
+    canvasScrollPosition: {x: 91.59063, y: 169.92209}
+    canvasZoom: 1.1199999
   - id: 11
     fields:
     - title: Title
@@ -9010,11 +9062,11 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Actor
-      value: 5
+      value: 1
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
-      value: 3
+      value: 5
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
@@ -9056,11 +9108,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9121,7 +9173,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9176,7 +9228,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9231,7 +9283,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9282,11 +9334,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9336,7 +9388,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9392,11 +9444,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9457,7 +9509,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9782,7 +9834,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(4)
         type: 0
         typeString: 
       conversationID: 17
@@ -9943,8 +9995,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Maari kang gumawa ng ritual\r para maalis ang impluwensya ni\r Asuang
-          sa lupa na tinataniman\r nila.\r [pic=2]"
+        value: "Maari kang gumawa ng ritual (Ginhawa Potion)\r para maalis ang impluwensya
+          ni\r Asuang sa lupa na tinataniman\r nila.\r [pic=2]"
         type: 0
         typeString: 
       - title: Sequence
@@ -10408,6 +10460,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 15e88a36-c1ff-499c-bbe0-271306c743cb
+        type: 0
+        typeString: 
       conversationID: 17
       isRoot: 0
       isGroup: 0
@@ -10429,8 +10485,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 388.6173
-        y: 282.99875
+        x: 369.93597
+        y: 334.64713
         width: 160
         height: 30
     - id: 14
@@ -10588,8 +10644,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.87999976
+    canvasScrollPosition: {x: 57.932453, y: 28.774193}
+    canvasZoom: 0.9099997
   - id: 18
     fields:
     - title: Title
@@ -10724,7 +10780,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2);
         type: 0
         typeString: 
       conversationID: 18
@@ -10835,7 +10891,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2);
         type: 0
         typeString: 
       conversationID: 18
@@ -10946,7 +11002,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2);
         type: 0
         typeString: 
       conversationID: 18
@@ -11057,7 +11113,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(3);
         type: 0
         typeString: 
       conversationID: 18
@@ -11167,7 +11223,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2);
         type: 0
         typeString: 
       conversationID: 18
@@ -11223,7 +11279,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2);
         type: 0
         typeString: 
       conversationID: 18
@@ -11248,7 +11304,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 161
-        y: 530
+        y: 528.9691
         width: 160
         height: 30
     - id: 11
@@ -11279,7 +11335,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2);q
         type: 0
         typeString: 
       conversationID: 18
@@ -11334,7 +11390,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(2);
         type: 0
         typeString: 
       - title: EventGuid
@@ -11594,8 +11650,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 52.00963, y: 0}
-    canvasZoom: 1.3299999
+    canvasScrollPosition: {x: 0, y: 185.45271}
+    canvasZoom: 0.8200004
   - id: 19
     fields:
     - title: Title
@@ -12679,8 +12735,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 209.68877
-        y: 272.72388
+        x: 406.39206
+        y: 195.80081
         width: 160
         height: 30
     - id: 11
@@ -12728,7 +12784,7 @@ MonoBehaviour:
       - originConversationID: 22
         originDialogueID: 11
         destinationConversationID: 22
-        destinationDialogueID: 10
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -14566,7 +14622,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 284.84436
+        x: 377.84436
         y: 313.14105
         width: 160
         height: 30
@@ -14615,7 +14671,7 @@ MonoBehaviour:
       - originConversationID: 26
         originDialogueID: 17
         destinationConversationID: 26
-        destinationDialogueID: 16
+        destinationDialogueID: 19
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -14702,7 +14758,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Popo Death Animation
+        value: 'Popo Death '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15068,8 +15124,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 231.84438
-        y: 437.14105
+        x: 375.4614
+        y: 435.01337
         width: 160
         height: 30
     - id: 24
@@ -15117,7 +15173,7 @@ MonoBehaviour:
       - originConversationID: 27
         originDialogueID: 24
         destinationConversationID: 27
-        destinationDialogueID: 23
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -15204,7 +15260,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Popo Death Animation
+        value: 'Popo Death '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15350,8 +15406,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 45.735493, y: 98.221306}
+    canvasZoom: 0.85000014
   - id: 28
     fields:
     - title: Title
@@ -15566,8 +15622,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 278.84436
-        y: 406.14105
+        x: 465.42966
+        y: 400.0435
         width: 160
         height: 30
     - id: 24
@@ -15615,7 +15671,7 @@ MonoBehaviour:
       - originConversationID: 28
         originDialogueID: 24
         destinationConversationID: 28
-        destinationDialogueID: 23
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       conditionsString: Variable["IsWeaponEquipped"] == true
@@ -15702,7 +15758,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Popo Death Animation
+        value: 'Popo Death '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15843,8 +15899,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 282.84436
-        y: 532.80225
+        x: 475.52725
+        y: 538.89984
         width: 160
         height: 30
     entryGroups: []
@@ -16748,11 +16804,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 7
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -16760,7 +16816,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: START BOSS FIGHT
         type: 0
         typeString: 
       - title: Sequence
@@ -16868,7 +16924,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: ...
         type: 0
         typeString: 
       - title: Sequence
@@ -16889,7 +16945,7 @@ MonoBehaviour:
       - originConversationID: 30
         originDialogueID: 10
         destinationConversationID: 30
-        destinationDialogueID: 11
+        destinationDialogueID: 8
         isConnector: 0
         priority: 2
       conditionsString: Variable["AsuangEncountered"] == true
@@ -16901,61 +16957,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 495.91608
         y: 311.4544
-        width: 160
-        height: 30
-    - id: 11
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 7
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: START BOSS FIGHT
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 30
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 30
-        originDialogueID: 11
-        destinationConversationID: 30
-        destinationDialogueID: 8
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 340.59695
-        y: 463.58206
         width: 160
         height: 30
     - id: 12
@@ -17022,8 +17023,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 25.83712, y: 4.6034174}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 76.802704, y: 90.14401}
+    canvasZoom: 0.64000034
   - id: 31
     fields:
     - title: Title
@@ -17398,6 +17399,124 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 31
+        originDialogueID: 5
+        destinationConversationID: 31
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 264.88202
+        y: 298.30997
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 5c009683-ed1f-4c0d-b3f3-dac23755baaf
+        type: 0
+        typeString: 
+      conversationID: 31
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 31
+        originDialogueID: 6
+        destinationConversationID: 31
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 265.6339
+        y: 348.30997
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 31
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
       userScript: 
@@ -17407,12 +17526,12 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 265.6339
-        y: 298.30997
+        y: 398.30997
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 92.33248, y: 26.772}
-    canvasZoom: 1.4199985
+    canvasScrollPosition: {x: 107.82348, y: 94.36286}
+    canvasZoom: 1.3299986
   - id: 32
     fields:
     - title: Title
@@ -17849,11 +17968,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -17865,14 +17984,17 @@ MonoBehaviour:
       - title: Menu Text
         value: Orasyon
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "Lason kontra sa alipin\r ng kasamaan, ulanan mo ng\r kahinaan ang
-          elementong\r sumisira sa mundo.\r"
+        value: Orasyon (Agimat)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(Monster)_01)
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: adaa66de-8a61-4034-909a-be025272e284
         type: 0
         typeString: 
       conversationID: 33
@@ -17896,7 +18018,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 159.02914
         y: 80
         width: 160
         height: 30
@@ -18136,8 +18258,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 10.27394, y: 0.23483293}
-    canvasZoom: 0.7300005
+    canvasScrollPosition: {x: 60.509663, y: 10.039229}
+    canvasZoom: 1.0300002
   - id: 34
     fields:
     - title: Title
@@ -19082,7 +19204,7 @@ MonoBehaviour:
       - originConversationID: 37
         originDialogueID: 0
         destinationConversationID: 37
-        destinationDialogueID: 2
+        destinationDialogueID: 1
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -19157,65 +19279,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 225
         y: 163
-        width: 160
-        height: 30
-    - id: 2
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: dda86656-5901-402d-898a-105f0260fde5
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 37
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 37
-        originDialogueID: 2
-        destinationConversationID: 37
-        destinationDialogueID: 1
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 225
-        y: 102
         width: 160
         height: 30
     - id: 3
@@ -19323,7 +19386,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 178.35126, y: 62.598434}
+    canvasScrollPosition: {x: 103.35126, y: 0}
     canvasZoom: 0.8800001
   syncInfo:
     syncActors: 0
