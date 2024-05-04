@@ -6,14 +6,15 @@ using UnityEngine;
 namespace Craft
 {
     [Serializable]
-    public class Ingredient 
+    public class Ingredient : ISerializationCallbackReceiver
     {
         [HideInInspector]
         public string Name;
         public InventoryItem Item;
         public int Quantity;
 
-      
+        public void OnBeforeSerialize() { Name = ToString(); }
+        public void OnAfterDeserialize() { }
         public override string ToString() { return (Quantity == 1 ? "" : Quantity + " ") + (Item == null ? "null" : Item.ItemName); }
     }
 
@@ -21,7 +22,7 @@ namespace Craft
     public class Recipe : Ingredient
     {
         public Ingredient[] Ingredients;
-        public string IngredientsText => string.Join(", ", Ingredients.Select(ingredient => ingredient.Name));
+        public string IngredientsText => string.Join("\n", Ingredients.Select(ingredient => ingredient.Name));
     }
 
     public static class Crafting

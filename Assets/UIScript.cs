@@ -42,6 +42,7 @@ public class UIScript : MonoBehaviour
     }
     public void GoToMenu()
     {
+        PixelCrushers.DialogueSystem.Sequencer.Message("SceneEnd");
         DialogueManager.StopAllConversations();
         //systemSaver.restoreStateOnStart = true;
         Debug.Log("Restore state menu");

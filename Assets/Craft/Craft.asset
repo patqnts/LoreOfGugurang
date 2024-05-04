@@ -26,19 +26,6 @@ MonoBehaviour:
     - Name: 2 Ulasimang Batos
       Item: {fileID: 11400000, guid: 3cc220ee1b3ca0443bfacb4787ac7ac8, type: 2}
       Quantity: 2
-  - Name: 2 Bangungot Likidos
-    Item: {fileID: 11400000, guid: a7bc538dc0a0bde4fbd8a0c0baafe121, type: 2}
-    Quantity: 1
-    Ingredients:
-    - Name: 2 Bawangs
-      Item: {fileID: 11400000, guid: 900c9bbe4dfc4ba4c834b66dbea06ad0, type: 2}
-      Quantity: 2
-    - Name: 3 Ampalayas
-      Item: {fileID: 11400000, guid: 4e8085984d7bf244c8f9e93580c41961, type: 2}
-      Quantity: 3
-    - Name: Lagundi
-      Item: {fileID: 11400000, guid: 042e5368f462ff74a9b3b7df2b37052f, type: 2}
-      Quantity: 1
   - Name: 3 Ginhawa Potions
     Item: {fileID: 11400000, guid: 9268a33d0219c954ab830a3b0b2a9dba, type: 2}
     Quantity: 1
@@ -61,17 +48,4 @@ MonoBehaviour:
       Quantity: 2
     - Name: Bayabas
       Item: {fileID: 11400000, guid: d02a1bc660797684a87cfc0b515c0ff9, type: 2}
-      Quantity: 1
-  - Name: 3 Kontrahas Potions
-    Item: {fileID: 11400000, guid: 0e5ec28aada357a4ba33292da8430084, type: 2}
-    Quantity: 1
-    Ingredients:
-    - Name: 3 Tsaang-Gubats
-      Item: {fileID: 11400000, guid: 140db523aa6e1c345992d7918084c3b6, type: 2}
-      Quantity: 3
-    - Name: 2 Ulasimang Batos
-      Item: {fileID: 11400000, guid: 3cc220ee1b3ca0443bfacb4787ac7ac8, type: 2}
-      Quantity: 2
-    - Name: Akapulko
-      Item: {fileID: 11400000, guid: eabfba057b50c5343bac278296aa069a, type: 2}
       Quantity: 1
