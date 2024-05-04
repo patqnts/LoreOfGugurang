@@ -19,4 +19,9 @@ public class MainMenuScript : MonoBehaviour
     {
         sts.SetSaveType(0);
     }
+
+    public void AppQuits()
+    {
+        Application.Quit();
+    }
 }
