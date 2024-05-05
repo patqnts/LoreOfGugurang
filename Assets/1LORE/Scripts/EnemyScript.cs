@@ -39,10 +39,16 @@ public class EnemyScript : MonoBehaviour
     {
         weaponCheck.IsWeaponEquipped(weaponID);
     }
-
+    private bool isDead=false;
     public void Death()
     {
+        isDead= true;
         animator.Play("Death");
+    }
+
+    public void SetDead()
+    {
+        isDead = true;
     }
 
     public void DisabeSelf()
@@ -52,7 +58,7 @@ public class EnemyScript : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player" && !isDead)
         {
             animator.Play("Attack");
         }

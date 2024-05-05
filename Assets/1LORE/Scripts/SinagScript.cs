@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class SinagScript : MonoBehaviour
 {
@@ -22,11 +23,52 @@ public class SinagScript : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip[] clips;
     public GameObject Katmbay;
-    
-    
+    public InventoryItem[] ITEMS;
+    public VideoPlayer vp;
+
     // 0 - hurt
     // 1 - interact/pick
     // 2- orasyon sound effect
+
+    private string[] keySequence = { "L", "G", "A" }; // Define your combination key sequence here
+    private int currentKeyIndex = 0;
+
+    void Update()
+    {
+        foreach (KeyCode keyCode in System.Enum.GetValues(typeof(KeyCode)))
+        {
+            if (Input.GetKeyDown(keyCode))
+            {
+                if (keyCode.ToString() == keySequence[currentKeyIndex])
+                {
+                    currentKeyIndex++;
+
+                    if (currentKeyIndex >= keySequence.Length)
+                    {
+                        CheatCode();
+                        currentKeyIndex = 0;
+                    }
+                }
+                else
+                {
+                    currentKeyIndex = 0;
+                }
+            }
+        }
+    }
+
+    private void CheatCode()
+    {
+        PlayerController.player.moveSpeed = 8;
+        MMInventoryEvent.Trigger(MMInventoryEventType.Pick, null, "RogueMainInventory", ITEMS[0], 100, 15, "Player1");
+        MMInventoryEvent.Trigger(MMInventoryEventType.Pick, null, "RogueMainInventory", ITEMS[1], 100, 16, "Player1");
+        MMInventoryEvent.Trigger(MMInventoryEventType.Pick, null, "RogueMainInventory", ITEMS[2], 100, 17, "Player1");       
+        if(vp != null)
+        {
+            vp.playbackSpeed = 6;
+        }
+        
+    }
     private void Awake()
     {
         instance = this;
@@ -83,9 +125,9 @@ public class SinagScript : MonoBehaviour
                 SinagData sinag = JsonUtility.FromJson<SinagData>(json);
                 Health = sinag.Health;
                 spawnIndex = sinag.spawnIndex;
-                if(spawnIndex >= 5)
+                if(spawnIndex == 5)
                 {
-                    Respawn();
+                    this.transform.position = spawnpoints[5].position;
                 }
                 else
                 {
