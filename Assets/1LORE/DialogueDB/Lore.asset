@@ -2230,7 +2230,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Balyana? Ano ang balyana,\rLola? Bakit sa\u2019kin ipapamana\r ito?\r"
+        value: "Balyana? Ano ang balyana, \rLola? Bakit sa\u2019kin ipapamana\r ito?\r"
         type: 0
         typeString: 
       - title: Sequence
