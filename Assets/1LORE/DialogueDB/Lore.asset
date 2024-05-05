@@ -53,13 +53,9 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
-    portrait: {fileID: 2800000, guid: b7e795607ba2ca44d90a7eb64d9d7166, type: 3}
+    portrait: {fileID: 0}
     spritePortrait: {fileID: 21300000, guid: af53d67c1f4ca2b4ea4ad549ff6d2d11, type: 3}
-    alternatePortraits:
-    - {fileID: 2800000, guid: 1b24c83dc98c6424d94c079ecac6a6fd, type: 3}
-    - {fileID: 2800000, guid: 286c6b0c3fcaf8f48af7ee68b55c5227, type: 3}
-    - {fileID: 2800000, guid: b077a3d8e8b41ee40811d490875d8c51, type: 3}
-    - {fileID: 2800000, guid: a5052efa8b76052468bee4b50ed006a0, type: 3}
+    alternatePortraits: []
     spritePortraits:
     - {fileID: 21300000, guid: 170421f01686ac0429ac1e55a70dc363, type: 3}
     - {fileID: 21300000, guid: c6da5e7493084204ab2ff5f2e683b3e5, type: 3}
@@ -83,7 +79,7 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-    portrait: {fileID: 2800000, guid: a95c9af14bca49c439d556154adda1b1, type: 3}
+    portrait: {fileID: 0}
     spritePortrait: {fileID: 21300000, guid: 95e557dd171647b4aa773f3c6172598f, type: 3}
     alternatePortraits: []
     spritePortraits:
@@ -108,13 +104,9 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-    portrait: {fileID: 2800000, guid: b7e795607ba2ca44d90a7eb64d9d7166, type: 3}
+    portrait: {fileID: 0}
     spritePortrait: {fileID: 21300000, guid: af53d67c1f4ca2b4ea4ad549ff6d2d11, type: 3}
-    alternatePortraits:
-    - {fileID: 2800000, guid: 1b24c83dc98c6424d94c079ecac6a6fd, type: 3}
-    - {fileID: 2800000, guid: 286c6b0c3fcaf8f48af7ee68b55c5227, type: 3}
-    - {fileID: 2800000, guid: b077a3d8e8b41ee40811d490875d8c51, type: 3}
-    - {fileID: 2800000, guid: a5052efa8b76052468bee4b50ed006a0, type: 3}
+    alternatePortraits: []
     spritePortraits:
     - {fileID: 21300000, guid: 170421f01686ac0429ac1e55a70dc363, type: 3}
     - {fileID: 21300000, guid: c6da5e7493084204ab2ff5f2e683b3e5, type: 3}
@@ -5706,6 +5698,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 8b8282b1-4970-4012-8474-376813880bdd
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0
@@ -5726,7 +5722,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 183.0232, y: 103.67853}
     canvasZoom: 0.8199998
   - id: 8
     fields:
@@ -6312,6 +6308,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 299059bf-685e-46b6-b796-4ffec7b93657
         type: 0
         typeString: 
       conversationID: 8
@@ -19344,6 +19344,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 99533e50-db18-4464-946d-9f36d2bbeab9
         type: 0
         typeString: 
       conversationID: 37
