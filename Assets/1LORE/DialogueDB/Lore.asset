@@ -46,7 +46,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Protagonist of the game.
+      value: 1
       type: 0
       typeString: CustomFieldType_Actor
     - title: IsPlayer
@@ -753,11 +753,11 @@ MonoBehaviour:
     - title: Title
       value: Intro
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Actor
       value: 3
       type: 5
@@ -864,7 +864,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -925,7 +925,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1038,7 +1038,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -16925,7 +16925,7 @@ MonoBehaviour:
       - originConversationID: 30
         originDialogueID: 10
         destinationConversationID: 30
-        destinationDialogueID: 8
+        destinationDialogueID: 13
         isConnector: 0
         priority: 2
       conditionsString: Variable["AsuangEncountered"] == true
@@ -17002,9 +17002,72 @@ MonoBehaviour:
         y: 199.14893
         width: 160
         height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'SetDialoguePanel(false);
+
+          required SetDialoguePanel(true)@Message(SceneEnd);
+
+          Continue()@Message(SceneEnd)'
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 02fcfb58-b00c-484b-9673-2e8aa48d8f44
+        type: 0
+        typeString: 
+      conversationID: 30
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 30
+        originDialogueID: 13
+        destinationConversationID: 30
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 422.28973
+        y: 438.37747
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 52.391544, y: 12.260048}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 57.85964, y: 45.566887}
+    canvasZoom: 0.73000026
   - id: 31
     fields:
     - title: Title
