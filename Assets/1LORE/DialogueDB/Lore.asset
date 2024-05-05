@@ -54,17 +54,17 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 2800000, guid: b7e795607ba2ca44d90a7eb64d9d7166, type: 3}
-    spritePortrait: {fileID: 21300000, guid: b7e795607ba2ca44d90a7eb64d9d7166, type: 3}
+    spritePortrait: {fileID: 21300000, guid: af53d67c1f4ca2b4ea4ad549ff6d2d11, type: 3}
     alternatePortraits:
     - {fileID: 2800000, guid: 1b24c83dc98c6424d94c079ecac6a6fd, type: 3}
     - {fileID: 2800000, guid: 286c6b0c3fcaf8f48af7ee68b55c5227, type: 3}
     - {fileID: 2800000, guid: b077a3d8e8b41ee40811d490875d8c51, type: 3}
     - {fileID: 2800000, guid: a5052efa8b76052468bee4b50ed006a0, type: 3}
     spritePortraits:
-    - {fileID: 21300000, guid: 1b24c83dc98c6424d94c079ecac6a6fd, type: 3}
-    - {fileID: 21300000, guid: 286c6b0c3fcaf8f48af7ee68b55c5227, type: 3}
-    - {fileID: 21300000, guid: b077a3d8e8b41ee40811d490875d8c51, type: 3}
-    - {fileID: 21300000, guid: a5052efa8b76052468bee4b50ed006a0, type: 3}
+    - {fileID: 21300000, guid: 170421f01686ac0429ac1e55a70dc363, type: 3}
+    - {fileID: 21300000, guid: c6da5e7493084204ab2ff5f2e683b3e5, type: 3}
+    - {fileID: 21300000, guid: b4ea88ab1171aed499605913ba2abf32, type: 3}
+    - {fileID: 21300000, guid: 8338f569936752a4cb71dc9e035e05bb, type: 3}
   - id: 2
     fields:
     - title: Name
@@ -84,12 +84,12 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 2800000, guid: a95c9af14bca49c439d556154adda1b1, type: 3}
-    spritePortrait: {fileID: 21300000, guid: 82c98af7a576310419c52c6f89cb189c, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 95e557dd171647b4aa773f3c6172598f, type: 3}
     alternatePortraits: []
     spritePortraits:
-    - {fileID: 21300000, guid: 5fd117756799816429d9c09d9a177f96, type: 3}
-    - {fileID: 21300000, guid: a064d16ba141a134f902ad13fcd3365c, type: 3}
-    - {fileID: 21300000, guid: fa42efad863c4464a9c28031f7fcd63e, type: 3}
+    - {fileID: 21300000, guid: c7919a6af9de6de4486f1330bb7353c8, type: 3}
+    - {fileID: 21300000, guid: 6dfddfe62a34a8848abd15adf2ca5304, type: 3}
+    - {fileID: 21300000, guid: ea21376656412d04f8a30d4a02903066, type: 3}
   - id: 3
     fields:
     - title: Name
@@ -109,17 +109,17 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 2800000, guid: b7e795607ba2ca44d90a7eb64d9d7166, type: 3}
-    spritePortrait: {fileID: 21300000, guid: b7e795607ba2ca44d90a7eb64d9d7166, type: 3}
+    spritePortrait: {fileID: 21300000, guid: af53d67c1f4ca2b4ea4ad549ff6d2d11, type: 3}
     alternatePortraits:
     - {fileID: 2800000, guid: 1b24c83dc98c6424d94c079ecac6a6fd, type: 3}
     - {fileID: 2800000, guid: 286c6b0c3fcaf8f48af7ee68b55c5227, type: 3}
     - {fileID: 2800000, guid: b077a3d8e8b41ee40811d490875d8c51, type: 3}
     - {fileID: 2800000, guid: a5052efa8b76052468bee4b50ed006a0, type: 3}
     spritePortraits:
-    - {fileID: 21300000, guid: 1b24c83dc98c6424d94c079ecac6a6fd, type: 3}
-    - {fileID: 21300000, guid: 286c6b0c3fcaf8f48af7ee68b55c5227, type: 3}
-    - {fileID: 21300000, guid: b077a3d8e8b41ee40811d490875d8c51, type: 3}
-    - {fileID: 21300000, guid: a5052efa8b76052468bee4b50ed006a0, type: 3}
+    - {fileID: 21300000, guid: 170421f01686ac0429ac1e55a70dc363, type: 3}
+    - {fileID: 21300000, guid: c6da5e7493084204ab2ff5f2e683b3e5, type: 3}
+    - {fileID: 21300000, guid: b4ea88ab1171aed499605913ba2abf32, type: 3}
+    - {fileID: 21300000, guid: 8338f569936752a4cb71dc9e035e05bb, type: 3}
   - id: 4
     fields:
     - title: Name
@@ -139,13 +139,13 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: c3b47fdfeaaec9945b20369f6e815565, type: 3}
+    spritePortrait: {fileID: 21300000, guid: b96240834131d6546845a3029a791d6a, type: 3}
     alternatePortraits: []
     spritePortraits:
-    - {fileID: 21300000, guid: bb024a1eef20ce14997bdc50c0cf22d9, type: 3}
-    - {fileID: 21300000, guid: df4510681034ada44913d2bb381d532c, type: 3}
-    - {fileID: 21300000, guid: 8c77fc8a6fb54094d85ffb40c9860f74, type: 3}
-    - {fileID: 21300000, guid: 2a9a0f54f81b1764baa19969b8077f4d, type: 3}
+    - {fileID: 21300000, guid: 37f8ca15f9b93774493eae6098e0ba80, type: 3}
+    - {fileID: 21300000, guid: 0b3e1f60f165e1044a93409f801b7bf4, type: 3}
+    - {fileID: 21300000, guid: fcb16c4ddcfaddc4790ac1dc568d1751, type: 3}
+    - {fileID: 21300000, guid: a041e0ba0bd258842b818b305660e23d, type: 3}
   - id: 5
     fields:
     - title: Name
@@ -165,11 +165,11 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: de323c299a2def545a6953f8f4d9f22e, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 570b3e0a9457c9742b20d482976b72e8, type: 3}
     alternatePortraits: []
     spritePortraits:
-    - {fileID: 21300000, guid: 67a777cf975e1ef49b3dda8cf623995d, type: 3}
-    - {fileID: 21300000, guid: f8de729f2a156fe44a7575e1d472c95a, type: 3}
+    - {fileID: 21300000, guid: 6cfd3d572e58cb342b0a8a24db6b8a5d, type: 3}
+    - {fileID: 21300000, guid: b9e339e7c5208554b87614d568c98982, type: 3}
   - id: 6
     fields:
     - title: Name
@@ -189,13 +189,13 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 39cb4e0f7f00a2d4ea8de458d859d24a, type: 3}
+    spritePortrait: {fileID: 21300000, guid: d914f7f7821d9fc4084d5feb5a3ffbf9, type: 3}
     alternatePortraits: []
     spritePortraits:
-    - {fileID: 21300000, guid: d8bbfe88e7236c6488f365c2344e5a37, type: 3}
-    - {fileID: 21300000, guid: 9d13af846a4f693409babd024115d372, type: 3}
-    - {fileID: 21300000, guid: b822a85b810db2b429356b69e2d71b91, type: 3}
-    - {fileID: 21300000, guid: fcaf71d798d65f14d8603d701edfe8a1, type: 3}
+    - {fileID: 21300000, guid: ea2229dd5f79c8d48b02555f95837ce6, type: 3}
+    - {fileID: 21300000, guid: fa6dc447c48ab9249af9b99aaf35c28d, type: 3}
+    - {fileID: 21300000, guid: 59e3e27369cb7d149a7ead67ec7a31e2, type: 3}
+    - {fileID: 21300000, guid: b0978f8b725c8314d84a6a9306ab0324, type: 3}
   - id: 7
     fields:
     - title: Name
@@ -215,13 +215,13 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 9c189a0046024ae4fa042167a050f91b, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 44a95cdc9395c1e4b855047ca587d01f, type: 3}
     alternatePortraits: []
     spritePortraits:
-    - {fileID: 21300000, guid: 5295586076b9ee04fa8bde2c9586e5ae, type: 3}
-    - {fileID: 21300000, guid: 5d0ae62d8322ed84baf99359be52ca41, type: 3}
-    - {fileID: 21300000, guid: e1cd41176ad01754ab21dff515bdad5e, type: 3}
-    - {fileID: 21300000, guid: 47731a1c40720ef4eb7e303a2d046613, type: 3}
+    - {fileID: 21300000, guid: c60e89c206fc5c143b87a24c8ea9ec17, type: 3}
+    - {fileID: 21300000, guid: ff998f2caf3c02b48ac8760f331514db, type: 3}
+    - {fileID: 21300000, guid: e841b0fe44e8f7a42a38fc28042abf6c, type: 3}
+    - {fileID: 21300000, guid: 4a9da3618fe0eee4791cf1707faac733, type: 3}
   - id: 8
     fields:
     - title: Name
