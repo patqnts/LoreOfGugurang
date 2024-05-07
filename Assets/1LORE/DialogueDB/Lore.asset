@@ -19467,7 +19467,7 @@ MonoBehaviour:
       - originConversationID: 37
         originDialogueID: 1
         destinationConversationID: 37
-        destinationDialogueID: 3
+        destinationDialogueID: 5
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -19479,61 +19479,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 225
         y: 163
-        width: 160
-        height: 30
-    - id: 3
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: WASD / Arrow Key to Move. Spacebar to interact.
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 37
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 37
-        originDialogueID: 3
-        destinationConversationID: 37
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 223
-        y: 247
         width: 160
         height: 30
     - id: 5
@@ -19559,7 +19504,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Confirm
+        value: Start Game
         type: 0
         typeString: 
       - title: Sequence
