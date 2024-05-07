@@ -63,10 +63,10 @@ public class SinagScript : MonoBehaviour
         MMInventoryEvent.Trigger(MMInventoryEventType.Pick, null, "RogueMainInventory", ITEMS[0], 100, 15, "Player1");
         MMInventoryEvent.Trigger(MMInventoryEventType.Pick, null, "RogueMainInventory", ITEMS[1], 100, 16, "Player1");
         MMInventoryEvent.Trigger(MMInventoryEventType.Pick, null, "RogueMainInventory", ITEMS[2], 100, 17, "Player1");       
-        if(vp != null)
-        {
-            vp.playbackSpeed = 6;
-        }
+        //if(vp != null)
+        //{
+        //    vp.playbackSpeed = 6;
+        //}
         
     }
     private void Awake()
