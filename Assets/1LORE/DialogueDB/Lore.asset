@@ -747,6 +747,34 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 19
+    fields:
+    - title: Name
+      value: Journal
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 20
+    fields:
+    - title: Name
+      value: New Variable 20
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -5380,7 +5408,9 @@ MonoBehaviour:
       userScript: 'SetQuestState("Second quest", "success");
 
         ShowAlert("Second
-        Quest Completed")'
+        Quest Completed");
+
+        Variable["Journal"] = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5716,8 +5746,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 376.58282, y: 224.01878}
-    canvasZoom: 1.2999994
+    canvasScrollPosition: {x: 331.14703, y: 47.884365}
+    canvasZoom: 0.8199998
   - id: 8
     fields:
     - title: Title
@@ -6322,8 +6352,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 142.89102, y: 199.4491}
-    canvasZoom: 1.0600001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.5800005
   - id: 9
     fields:
     - title: Title
@@ -16514,7 +16544,7 @@ MonoBehaviour:
       - originConversationID: 30
         originDialogueID: 0
         destinationConversationID: 30
-        destinationDialogueID: 12
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -17107,11 +17137,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 7
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -17119,7 +17149,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Asuang
         type: 0
         typeString: 
       - title: Sequence
@@ -17148,15 +17178,15 @@ MonoBehaviour:
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
-      conditionsString: Variable["AsuangEncountered"] == false
-      userScript: Variable["AsuangEncountered"] = true
+      conditionsString: 
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 685.5319
-        y: 199.14893
+        x: 675.40533
+        y: 224.46536
         width: 160
         height: 30
     - id: 13
@@ -17220,6 +17250,61 @@ MonoBehaviour:
         serializedVersion: 2
         x: 422.28973
         y: 438.37747
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: CinemachineTarget(Virtual Camera, Asuang,follow);
+        type: 0
+        typeString: 
+      conversationID: 30
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 30
+        originDialogueID: 14
+        destinationConversationID: 30
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["AsuangEncountered"] == false
+      userScript: Variable["AsuangEncountered"] = true
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 660.4175
+        y: 134.88821
         width: 160
         height: 30
     entryGroups: []

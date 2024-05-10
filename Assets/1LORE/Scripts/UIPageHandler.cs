@@ -1,3 +1,4 @@
+using PixelCrushers.DialogueSystem;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,16 +17,19 @@ public class UIPageHandler : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J))
+        if (DialogueLua.GetVariable("Journal").asBool)
         {
-            ToggleBookDisplay();
-            
-        }
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                ToggleBookDisplay();
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            CloseBook();
-        }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                CloseBook();
+            }
+        }       
     }
 
     public void NextPages()
