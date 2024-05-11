@@ -186,11 +186,13 @@ public class SinagScript : MonoBehaviour
         AsuangScript.instance.ToggleSpriteRenderer(2);
         deathScreen.SetActive(true);
         AsuangScript.instance.StopAllCoroutines();
-       
+        AsuangScript.instance.gameObject.GetComponent<Usable>().enabled = false;
+        DialogueManager.StopAllConversations();
     }
 
     public void Respawn()
     {
+        AsuangScript.instance.gameObject.GetComponent<Usable>().enabled = true;
         AudioHandler.instance.SetBossFight(false);
         DialogueManager.StopAllConversations();
         Health = 1;

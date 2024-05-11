@@ -59,7 +59,7 @@ public class AsuangScript : MonoBehaviour
     IEnumerator CompleteMoveset()
     {
         isOnCooldown = true;
-       
+        
         // Execute moveset for the specified duration
         yield return StartCoroutine(MovesetCoroutine());
 
@@ -72,10 +72,11 @@ public class AsuangScript : MonoBehaviour
     IEnumerator MovesetCoroutine()
     {
         float elapsedTime = 0f;
-        circleCollider2d.enabled = false;
+        
         while (elapsedTime < movesetDuration)
         {
             // Select a random position from the array
+            this.gameObject.GetComponent<Usable>().enabled = false;
             Vector3 targetPosition = movePositions[Random.Range(0, movePositions.Length)].position;
 
             // Play attack animation
@@ -97,7 +98,7 @@ public class AsuangScript : MonoBehaviour
             Debug.Log(elapsedTime);
         }
         DialogueManager.StartConversation("Liwanag");
-        circleCollider2d.enabled = true;
+        this.gameObject.GetComponent<Usable>().enabled = true;
     }
 
     IEnumerator MoveToPosition(Vector3 targetPosition)
