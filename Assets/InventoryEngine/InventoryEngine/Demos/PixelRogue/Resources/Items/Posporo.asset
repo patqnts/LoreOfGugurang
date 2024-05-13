@@ -16,7 +16,7 @@ MonoBehaviour:
   TargetInventoryName: RogueMainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
-  Usable: 1
+  Usable: 0
   Consumable: 1
   ConsumeQuantity: 1
   Equippable: 1
@@ -79,3 +79,4 @@ MonoBehaviour:
   MovedSound: {fileID: 0}
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
+  HealthBonus: 0
