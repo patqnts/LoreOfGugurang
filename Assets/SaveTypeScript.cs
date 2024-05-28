@@ -2,6 +2,7 @@ using PixelCrushers;
 using PixelCrushers.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -40,4 +41,13 @@ public class SaveTypeScript : MonoBehaviour
 
         Debug.Log($"Save type {saveType}");
     }
+
+    public void SetContinueButton(bool always)
+    {
+        DialogueManager.displaySettings.subtitleSettings.continueButton = always
+            ? DisplaySettings.SubtitleSettings.ContinueButtonMode.NotForPC
+            : DisplaySettings.SubtitleSettings.ContinueButtonMode.Never;
+        DialogueManager.conversationView.SetupContinueButton();
+    }
+
 }

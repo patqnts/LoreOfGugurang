@@ -1023,9 +1023,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetContinueMode(true);
-
-          AudioWait(Sinag/1. Sinag-Scene1_L1)'
+        value: AudioWait(Sinag/1. Sinag-Scene1_L1)
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 9cce205d-5553-410e-bd35-c0c87cb0089c
         type: 0
         typeString: 
       conversationID: 1
@@ -19539,7 +19541,7 @@ MonoBehaviour:
           required
           SetDialoguePanel(true)@Message(SceneEnd);
 
-          Continue()@Message(SceneEnd)'
+          Continue()@Message(SceneEnd);'
         type: 0
         typeString: 
       - title: EventGuid
@@ -19568,7 +19570,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 225
-        y: 163
+        y: 162
         width: 160
         height: 30
     - id: 5
@@ -19598,7 +19600,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetContinueMode(true);
+        value: 
         type: 0
         typeString: 
       - title: EventGuid
@@ -19621,7 +19623,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 224
-        y: 313
+        y: 310
         width: 160
         height: 30
     entryGroups: []
